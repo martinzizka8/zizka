@@ -22,5 +22,8 @@ Web nevyžaduje build ani lokální server. Interaktivní čtečka používá da
 
 ## GitHub Pages
 
-Pro GitHub Pages stačí publikovat repozitář z větve `main` a zdroj nastavit na
-root složku. Kořenový `index.html` už vede do webu.
+Web je publikovaný přes větev `gh-pages`.
+
+Veřejná adresa:
+
+https://martinzizka8.github.io/zizka/
