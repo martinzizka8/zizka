@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jan Žižka a Třetí úderná</title>
+    <meta name="description" content="Interaktivní web o majoru Janu Žižkovi, československých legiích a románu Třetí úderná.">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script defer src="data/novel-data.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#obsah">Přejít na obsah</a>
+
+    <header class="site-header" aria-label="Hlavní navigace">
+      <a class="brand" href="#top" aria-label="Jan Žižka a Třetí úderná">
+        <span class="brand-mark">JŽ</span>
+        <span>Jan Žižka</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#zivot">Život</a>
+        <a href="#prameny">Prameny</a>
+        <a href="#trasa">Trasa</a>
+        <a href="#roman">Román</a>
+        <a href="#archiv">Archiv</a>
+      </nav>
+    </header>
+
+    <main id="obsah">
+      <section id="top" class="hero" aria-labelledby="hero-title">
+        <img class="hero-image" src="assets/jan-zizka-portrait.png" alt="Archivní portrét muže v uniformě">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">major pěchoty · ruský legionář · úderník</p>
+          <h1 id="hero-title">Jan Žižka a Třetí úderná</h1>
+          <p class="hero-lede">
+            Život muže, který prošel rakousko-uherskou armádou, ruskými legiemi,
+            prvorepublikovou službou a padl 9. května 1945 na barikádě v Dejvicích.
+          </p>
+          <div class="hero-actions" aria-label="Rychlé odkazy">
+            <a class="button button-primary" href="#roman"><i data-lucide="book-open"></i><span>Otevřít román</span></a>
+            <a class="button button-secondary" href="#zivot"><i data-lucide="route"></i><span>Projít život</span></a>
+          </div>
+        </div>
+        <div class="hero-facts" aria-label="Základní údaje">
+          <div>
+            <strong>1896</strong>
+            <span>Krčmaň</span>
+          </div>
+          <div>
+            <strong>I. úderný prapor</strong>
+            <span>ruské legie</span>
+          </div>
+          <div>
+            <strong>1938</strong>
+            <span>Strážní prapor XXII</span>
+          </div>
+          <div>
+            <strong>1945</strong>
+            <span>Dejvice</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Charakter webu">
+        <div class="section-inner intro-grid">
+          <div>
+            <p class="section-kicker">Dvě vrstvy jednoho příběhu</p>
+            <h2>Biografie, archiv a román v jednom čtenářském prostoru</h2>
+          </div>
+          <p>
+            Web spojuje ověřené životopisné body, pramenné rozpory, cestu legií po Rusku
+            a plný text upravených přepisů Třetí úderné. Žižka tu není jen položka v databázi,
+            ale postava, kterou lze sledovat na mapě, v časové ose i přímo v románu.
+          </p>
+        </div>
+      </section>
+
+      <section id="zivot" class="section section-light" aria-labelledby="zivot-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Životopisná osa</p>
+            <h2 id="zivot-title">Od Hané po dejvickou barikádu</h2>
+            <p>
+              Osa vychází z místních dokumentů, databáze ČsOL/VÚA, VHÚ a evidence
+              vojenských pietních míst.
+            </p>
+          </div>
+          <div class="timeline" id="timeline"></div>
+        </div>
+      </section>
+
+      <section id="prameny" class="section section-dark" aria-labelledby="prameny-title">
+        <div class="section-inner">
+          <div class="section-heading compact">
+            <p class="section-kicker">Pramenná vrstva</p>
+            <h2 id="prameny-title">Co je jisté, co je potřeba držet otevřené</h2>
+          </div>
+          <div class="evidence-grid">
+            <article class="evidence-card">
+              <div class="evidence-icon"><i data-lucide="badge-check"></i></div>
+              <h3>Jisté kotevní body</h3>
+              <ul>
+                <li>Narozen 30. 8. 1896 v Krčmani u Olomouce.</li>
+                <li>Sloužil u 54. pěšího pluku a vstoupil do ruských legií.</li>
+                <li>V legiích skončil u úderného praporu jako podporučík.</li>
+                <li>V roce 1936 byl majorem pěchoty.</li>
+                <li>Padl 9. 5. 1945 v Praze 6, Dejvicích.</li>
+              </ul>
+            </article>
+            <article class="evidence-card">
+              <div class="evidence-icon"><i data-lucide="git-compare-arrows"></i></div>
+              <h3>Rozpory v datech</h3>
+              <ul>
+                <li>ČsOL/VÚA uvádí zajetí 7. 8. 1916 u Stanislavi.</li>
+                <li>VHÚ uvádí zajetí 3. 10. 1915 u Stanislavi.</li>
+                <li>ČsOL/VÚA uvádí zařazení do legií 1. 8. 1917.</li>
+                <li>VHÚ uvádí přijetí k legiím 3. 1. 1917.</li>
+              </ul>
+            </article>
+            <article class="evidence-card">
+              <div class="evidence-icon"><i data-lucide="library"></i></div>
+              <h3>Druhá tvář vojáka</h3>
+              <ul>
+                <li>Autoritní záznam UPOL ho vede také jako sběratele exlibris.</li>
+                <li>Katalogy evidují jeho exlibris od Galandy, Krs, Michla a dalších.</li>
+                <li>Redigoval zprávy Spolku sběratelů a přátel exlibris.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="trasa" class="section section-map" aria-labelledby="trasa-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Interaktivní trasa</p>
+            <h2 id="trasa-title">Legionářská anabáze jako prostor románu</h2>
+          </div>
+          <div class="route-layout">
+            <div class="route-map" id="routeMap" aria-label="Mapa cesty Jana Žižky a Třetí úderné"></div>
+            <aside class="route-detail" id="routeDetail"></aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="roman" class="section section-reader" aria-labelledby="roman-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Interaktivní čtečka</p>
+            <h2 id="roman-title">Třetí úderná</h2>
+            <p>
+              Čtečka pracuje s upravenými přepisy ze složky <span class="mono">Přepis - upravený</span>.
+            </p>
+          </div>
+
+          <div class="reader-shell">
+            <aside class="reader-sidebar">
+              <div class="reader-panel">
+                <h3>Díly</h3>
+                <div class="volume-list" id="volumeList"></div>
+              </div>
+              <div class="reader-panel">
+                <h3>Oddíly</h3>
+                <div class="heading-list" id="headingList"></div>
+              </div>
+              <div class="reader-panel reader-source-panel" id="readerSourcePanel"></div>
+            </aside>
+
+            <div class="reader-main">
+              <div class="reader-toolbar" aria-label="Nástroje čtečky">
+                <div class="segmented" role="group" aria-label="Režim čtení">
+                  <button class="segment active" data-mode="full"><i data-lucide="align-left"></i><span>Celý text</span></button>
+                  <button class="segment" data-mode="zizka"><i data-lucide="crosshair"></i><span>Žižkova stopa</span></button>
+                  <button class="segment" data-mode="notes"><i data-lucide="sticky-note"></i><span>Poznámky</span></button>
+                </div>
+                <label class="search-box">
+                  <i data-lucide="search"></i>
+                  <span class="sr-only">Hledat v románu</span>
+                  <input id="readerSearch" type="search" placeholder="Hledat v textu">
+                </label>
+              </div>
+
+              <div class="reader-meta">
+                <div id="readerStats"></div>
+                <div id="readerStatus"></div>
+              </div>
+
+              <article class="reader-content" id="readerContent"></article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="postavy" class="section section-light" aria-labelledby="postavy-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Kartotéka čtení</p>
+            <h2 id="postavy-title">Postavy, motivy a pojmy</h2>
+          </div>
+          <div class="cards-grid" id="characterGrid"></div>
+        </div>
+      </section>
+
+      <section id="archiv" class="section section-dark" aria-labelledby="archiv-title">
+        <div class="section-inner">
+          <div class="section-heading compact">
+            <p class="section-kicker">Archiv</p>
+            <h2 id="archiv-title">Místní soubory a dohledané prameny</h2>
+          </div>
+          <div class="archive-grid" id="archiveGrid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-inner footer-inner">
+        <p>Jan Žižka a Třetí úderná · statický archivní web</p>
+        <a href="#top"><i data-lucide="arrow-up"></i><span>Nahoru</span></a>
+      </div>
+    </footer>
+  </body>
+</html>
