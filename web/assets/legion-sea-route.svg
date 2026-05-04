@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Námořní cesta domů</title>
+  <desc id="desc">Stylizovaná cesta legionářů přes Tichý oceán, Kanadu a Atlantik.</desc>
+  <defs>
+    <linearGradient id="sea" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#174743"/>
+      <stop offset=".48" stop-color="#2d7069"/>
+      <stop offset="1" stop-color="#dfe7df"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#sea)"/>
+  <path d="M0 366c102-38 180-24 260 10 95 41 168 34 273-14 147-67 265-5 427-29v207H0z" fill="#fffdf6" opacity=".22"/>
+  <path d="M48 195c83 59 174 81 276 59 97-21 150-70 256-46 94 21 178 85 297 56" fill="none" stroke="#ead8a5" stroke-width="6" stroke-dasharray="4 19" stroke-linecap="round"/>
+  <g transform="translate(302 245)">
+    <path d="M0 83h368l-31 54H58z" fill="#10100e"/>
+    <path d="M78 39h164l29 44H47z" fill="#fffdf6"/>
+    <path d="M126 0h76v39h-76z" fill="#7b2637"/>
+    <path d="M110 19h121" stroke="#10100e" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="106" cy="64" r="12" fill="#2d7069"/>
+    <circle cx="158" cy="64" r="12" fill="#2d7069"/>
+    <circle cx="210" cy="64" r="12" fill="#2d7069"/>
+    <path d="M9 149c41 24 81 24 122 0s82-24 123 0 82 24 123 0" fill="none" stroke="#fffdf6" stroke-width="10" stroke-linecap="round" opacity=".72"/>
+  </g>
+  <g fill="#fffdf6" opacity=".86">
+    <circle cx="97" cy="205" r="9"/>
+    <circle cx="245" cy="257" r="9"/>
+    <circle cx="487" cy="204" r="9"/>
+    <circle cx="722" cy="257" r="9"/>
+    <circle cx="881" cy="263" r="9"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#fffdf6" opacity=".75">
+    <text x="55" y="165">Vladivostok</text>
+    <text x="195" y="305">Vancouver</text>
+    <text x="684" y="307">Quebec</text>
+    <text x="797" y="225">Evropa</text>
+  </g>
+</svg>

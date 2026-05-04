@@ -179,6 +179,34 @@
     }
   ];
 
+  const volumeVisuals = {
+    "na-ukrajine": {
+      src: "assets/legion-echelon.svg",
+      alt: "Stylizovaný legionářský ešalon",
+      caption: "Ukrajina, výcvik a první ešalonová zkušenost."
+    },
+    "na-vychod": {
+      src: "assets/legion-echelon.svg",
+      alt: "Stylizovaný vlak československých legionářů",
+      caption: "Cesta na východ v těpluškách a vojenských vlacích."
+    },
+    "vlastnim-poradkem": {
+      src: "assets/legion-armored-train.svg",
+      alt: "Stylizovaný obrněný vlak na magistrále",
+      caption: "Rozhodnutí postupovat vlastním pořádkem."
+    },
+    "za-ruskou-demokracii": {
+      src: "assets/legion-armored-train.svg",
+      alt: "Stylizovaný broněvik v bojích na Urale",
+      caption: "Ural, broněviky a boje na magistrále."
+    },
+    "cesta-domu": {
+      src: "assets/legion-sea-route.svg",
+      alt: "Stylizovaná námořní cesta domů",
+      caption: "Návrat přes Vladivostok, oceány a Kanadu."
+    }
+  };
+
   const characters = [
     {
       tag: "biografie",
@@ -247,7 +275,8 @@
       title: "Audio a obraz",
       body: "Komplexní složka obsahuje také zvukové verze. Portrét je použitý jako hlavní vizuální motiv webu.",
       links: [
-        ["../Komplexní/I. díl.mp3", "I. MP3", "volume-2", false, true],
+        ["assets/mapa-pohybu-treti-uderne-roty.jpg", "Mapa", "map", false, true],
+        ["../Komplexní/I. díl.mp3", "I. MP3", "volume-2", false, false],
         ["../Komplexní/II. díl.mp3", "II. MP3", "volume-2", false, false],
         ["../Komplexní/III. díl.mp3", "III. MP3", "volume-2", false, false],
         ["../Komplexní/IV. díl.mp3", "IV. MP3", "volume-2", false, false],
@@ -465,10 +494,17 @@
     stats.textContent = `${volume.stats.paragraphs} odstavců · ${formatNumber(volume.stats.characters)} znaků · ${volume.stats.zizkaMentions} výskytů jména Žižka`;
     status.textContent = `Zobrazeno ${formatNumber(visibleIndexes.length)} z ${formatNumber(modeIndexes.length)} bloků`;
 
+    const visual = volumeVisuals[volume.id] || volumeVisuals["na-ukrajine"];
     const intro = `
       <header class="reader-volume-header">
-        <h3 class="reader-volume-title">${escapeHtml(volume.title)}</h3>
-        <p class="reader-volume-subtitle">${escapeHtml(volume.summary)} ${escapeHtml(volume.subtitle)}.</p>
+        <div>
+          <h3 class="reader-volume-title">${escapeHtml(volume.title)}</h3>
+          <p class="reader-volume-subtitle">${escapeHtml(volume.summary)} ${escapeHtml(volume.subtitle)}.</p>
+        </div>
+        <figure class="reader-volume-visual">
+          <img src="${escapeHtml(visual.src)}" alt="${escapeHtml(visual.alt)}">
+          <figcaption>${escapeHtml(visual.caption)}</figcaption>
+        </figure>
       </header>
     `;
 

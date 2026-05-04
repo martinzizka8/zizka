@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Obrněný vlak na magistrále</title>
+  <desc id="desc">Stylizovaný broněvik v krajině Uralu a Sibiře.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#173c3a"/>
+      <stop offset=".55" stop-color="#dfe7df"/>
+      <stop offset="1" stop-color="#ead8a5"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <path d="M0 330c78-28 150-31 231-9 104 29 169-31 274-8 105 23 163 79 287 28 70-29 117-30 168-19v218H0z" fill="#eef0e8" opacity=".82"/>
+  <path d="M0 405h960" stroke="#10100e" stroke-width="5"/>
+  <path d="M0 428h960" stroke="#10100e" stroke-width="5"/>
+  <g transform="translate(126 244)">
+    <path d="M0 104h748v60H0z" fill="#262721"/>
+    <path d="M65 42h178l36 62H28z" fill="#4d1824"/>
+    <path d="M298 8h172l42 96H270z" fill="#2d7069"/>
+    <path d="M552 58h142l34 46H516z" fill="#6b5a3a"/>
+    <path d="M390 8h220v26H390z" fill="#10100e"/>
+    <path d="M610 21h126" stroke="#10100e" stroke-width="13" stroke-linecap="round"/>
+    <path d="M134 75h78M336 51h74M574 79h68" stroke="#fffdf6" stroke-width="15" stroke-linecap="round" opacity=".88"/>
+    <g fill="#10100e">
+      <circle cx="73" cy="176" r="28"/>
+      <circle cx="173" cy="176" r="28"/>
+      <circle cx="314" cy="176" r="28"/>
+      <circle cx="446" cy="176" r="28"/>
+      <circle cx="586" cy="176" r="28"/>
+      <circle cx="690" cy="176" r="28"/>
+    </g>
+    <g fill="none" stroke="#dfe7df" stroke-width="6">
+      <circle cx="73" cy="176" r="13"/>
+      <circle cx="173" cy="176" r="13"/>
+      <circle cx="314" cy="176" r="13"/>
+      <circle cx="446" cy="176" r="13"/>
+      <circle cx="586" cy="176" r="13"/>
+      <circle cx="690" cy="176" r="13"/>
+    </g>
+  </g>
+  <g fill="none" stroke="#7b2637" stroke-width="4" stroke-linecap="round" opacity=".78">
+    <path d="M101 108c70 52 132 75 231 63s140 51 231 34c64-12 118-56 185-23"/>
+    <path d="M119 128c70 52 132 75 231 63s140 51 231 34c64-12 118-56 185-23" stroke-dasharray="10 12"/>
+  </g>
+  <path d="M778 84l14 30 33 4-24 23 6 32-29-16-29 16 6-32-24-23 33-4z" fill="#ead8a5"/>
+</svg>

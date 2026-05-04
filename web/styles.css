@@ -187,7 +187,7 @@ h3 {
 
 .hero {
   position: relative;
-  min-height: 78vh;
+  min-height: min(78vh, 820px);
   isolation: isolate;
   display: grid;
   align-items: end;
@@ -197,13 +197,16 @@ h3 {
 
 .hero-image {
   position: absolute;
-  inset: 0;
+  top: 4.2rem;
+  right: 1.25rem;
+  bottom: 1.25rem;
   z-index: -3;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 64% 34%;
+  width: min(45vw, 620px);
+  height: calc(100% - 5.45rem);
+  object-fit: contain;
+  object-position: center;
   filter: grayscale(0.95) contrast(1.05);
+  opacity: 0.96;
 }
 
 .hero-overlay {
@@ -211,14 +214,21 @@ h3 {
   inset: 0;
   z-index: -2;
   background:
-    linear-gradient(90deg, rgba(16, 16, 14, 0.95) 0%, rgba(16, 16, 14, 0.78) 38%, rgba(16, 16, 14, 0.34) 76%),
-    linear-gradient(0deg, rgba(16, 16, 14, 0.8) 0%, rgba(16, 16, 14, 0.04) 42%);
+    radial-gradient(circle at 78% 50%, rgba(234, 216, 165, 0.08), transparent 31rem),
+    linear-gradient(90deg, rgba(16, 16, 14, 0.98) 0%, rgba(16, 16, 14, 0.9) 43%, rgba(16, 16, 14, 0.5) 74%, rgba(16, 16, 14, 0.68) 100%),
+    linear-gradient(0deg, rgba(16, 16, 14, 0.78) 0%, rgba(16, 16, 14, 0.06) 42%);
 }
 
 .hero-content {
   width: min(1180px, calc(100% - 2rem));
   margin: 0 auto;
   padding: 7.2rem 0 8rem;
+}
+
+.hero-content h1,
+.hero-content .hero-lede,
+.hero-actions {
+  max-width: 760px;
 }
 
 .eyebrow,
@@ -351,6 +361,40 @@ h3 {
   padding: 2.2rem 0;
   color: var(--paper-strong);
   background: var(--wine-dark);
+}
+
+.visual-band {
+  padding: 2.4rem 0;
+  background: var(--paper);
+}
+
+.visual-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.visual-tile {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(29, 29, 26, 0.14);
+  border-radius: var(--radius);
+  background: var(--paper-strong);
+  box-shadow: 0 10px 26px rgba(16, 16, 14, 0.08);
+}
+
+.visual-tile img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.visual-tile figcaption {
+  padding: 0.85rem 0.95rem 1rem;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.45;
 }
 
 .intro-grid {
@@ -509,6 +553,31 @@ h3 {
   grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
   gap: 1rem;
   align-items: stretch;
+}
+
+.route-atlas {
+  margin: 0 0 1rem;
+  overflow: hidden;
+  border: 1px solid rgba(255, 250, 240, 0.2);
+  border-radius: var(--radius);
+  background: rgba(16, 16, 14, 0.28);
+  box-shadow: var(--shadow);
+}
+
+.route-atlas a {
+  display: block;
+}
+
+.route-atlas img {
+  width: 100%;
+  background: #efe7d1;
+}
+
+.route-atlas figcaption {
+  padding: 0.8rem 1rem;
+  color: rgba(255, 250, 240, 0.78);
+  font-size: 0.92rem;
+  line-height: 1.55;
 }
 
 .route-map,
@@ -804,6 +873,35 @@ h3 {
   font-size: 2.2rem;
 }
 
+.reader-volume-header {
+  max-width: 920px;
+  margin: 0 auto 1.35rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(220px, 0.75fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+.reader-volume-visual {
+  overflow: hidden;
+  border: 1px solid rgba(29, 29, 26, 0.12);
+  border-radius: var(--radius);
+  background: rgba(255, 250, 240, 0.74);
+}
+
+.reader-volume-visual img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.reader-volume-visual figcaption {
+  padding: 0.58rem 0.7rem;
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
 .reader-volume-subtitle {
   max-width: 760px;
   color: var(--ink-soft);
@@ -1017,10 +1115,6 @@ mark {
     font-size: 3.95rem;
   }
 
-  .hero {
-    min-height: 72vh;
-  }
-
   .hero-content {
     padding: 5.2rem 0 6.4rem;
   }
@@ -1042,7 +1136,7 @@ mark {
 
 @media (max-width: 720px) {
   h1 {
-    font-size: 2.65rem;
+    font-size: 2.35rem;
   }
 
   h2 {
@@ -1059,29 +1153,41 @@ mark {
   }
 
   .hero {
-    min-height: 80vh;
+    min-height: auto;
   }
 
   .hero-overlay {
     background:
-      linear-gradient(90deg, rgba(16, 16, 14, 0.94), rgba(16, 16, 14, 0.58)),
+      linear-gradient(90deg, rgba(16, 16, 14, 0.96), rgba(16, 16, 14, 0.68)),
       linear-gradient(0deg, rgba(16, 16, 14, 0.82), rgba(16, 16, 14, 0.12));
   }
 
   .hero-image {
-    object-position: 62% 38%;
+    top: 8.1rem;
+    right: -2.2rem;
+    bottom: auto;
+    width: 58vw;
+    height: 34vh;
+    opacity: 0.52;
   }
 
   .hero-content {
-    padding: 9rem 0 8.5rem;
+    padding: 8rem 0 1.2rem;
   }
 
-  .hero-lede {
-    font-size: 1.02rem;
+  .hero-content .hero-lede {
+    max-width: 18.5rem;
+    font-size: 0.98rem;
+    line-height: 1.5;
+  }
+
+  .hero-facts {
+    margin: 0 auto 0;
   }
 
   .hero-facts,
   .evidence-grid,
+  .visual-grid,
   .cards-grid,
   .archive-grid {
     grid-template-columns: 1fr;
@@ -1134,6 +1240,10 @@ mark {
   .reader-content {
     height: 68vh;
     padding: 1.05rem;
+  }
+
+  .reader-volume-header {
+    grid-template-columns: 1fr;
   }
 
   .reader-block {

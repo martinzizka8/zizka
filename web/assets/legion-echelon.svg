@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Legionářský ešalon</title>
+  <desc id="desc">Stylizovaný vlak československých legionářů na zasněžené trati.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#dce8e2"/>
+      <stop offset="1" stop-color="#f8eed8"/>
+    </linearGradient>
+    <linearGradient id="smoke" x1="0" x2="1">
+      <stop offset="0" stop-color="#2c2a25" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#2c2a25" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#sky)"/>
+  <path d="M0 378c121-42 206-42 330-4 89 27 165 26 263-2 150-43 249-17 367 20v148H0z" fill="#c9d3c6"/>
+  <path d="M0 422h960" stroke="#7b2637" stroke-width="10"/>
+  <path d="M0 447h960" stroke="#10100e" stroke-width="4"/>
+  <path d="M0 470h960" stroke="#10100e" stroke-width="4"/>
+  <g fill="#514333" opacity=".55">
+    <path d="M45 446h64v15H45zM169 446h64v15h-64zM293 446h64v15h-64zM417 446h64v15h-64zM541 446h64v15h-64zM665 446h64v15h-64zM789 446h64v15h-64z"/>
+  </g>
+  <g transform="translate(106 260)">
+    <path d="M84 64c55-44 135-63 220-42 42 10 71-8 108-24 75-33 144-19 214 30" fill="none" stroke="url(#smoke)" stroke-width="38" stroke-linecap="round"/>
+    <rect x="72" y="105" width="224" height="96" rx="8" fill="#7b2637"/>
+    <rect x="306" y="105" width="214" height="96" rx="8" fill="#2d7069"/>
+    <rect x="530" y="105" width="176" height="96" rx="8" fill="#b8944c"/>
+    <path d="M0 139h70v62H0z" fill="#1d1d1a"/>
+    <path d="M18 112h36v27H18zM68 82h40v119H68z" fill="#1d1d1a"/>
+    <path d="M99 78h34l18 27H86z" fill="#1d1d1a"/>
+    <g fill="#fffdf6" opacity=".88">
+      <rect x="99" y="132" width="34" height="28" rx="3"/>
+      <rect x="151" y="132" width="34" height="28" rx="3"/>
+      <rect x="203" y="132" width="34" height="28" rx="3"/>
+      <rect x="333" y="132" width="34" height="28" rx="3"/>
+      <rect x="385" y="132" width="34" height="28" rx="3"/>
+      <rect x="437" y="132" width="34" height="28" rx="3"/>
+      <rect x="557" y="132" width="34" height="28" rx="3"/>
+      <rect x="609" y="132" width="34" height="28" rx="3"/>
+    </g>
+    <g fill="#10100e">
+      <circle cx="50" cy="207" r="24"/>
+      <circle cx="126" cy="207" r="24"/>
+      <circle cx="244" cy="207" r="24"/>
+      <circle cx="356" cy="207" r="24"/>
+      <circle cx="488" cy="207" r="24"/>
+      <circle cx="576" cy="207" r="24"/>
+      <circle cx="674" cy="207" r="24"/>
+    </g>
+    <g fill="none" stroke="#fffdf6" stroke-width="5" opacity=".72">
+      <circle cx="50" cy="207" r="11"/>
+      <circle cx="126" cy="207" r="11"/>
+      <circle cx="244" cy="207" r="11"/>
+      <circle cx="356" cy="207" r="11"/>
+      <circle cx="488" cy="207" r="11"/>
+      <circle cx="576" cy="207" r="11"/>
+      <circle cx="674" cy="207" r="11"/>
+    </g>
+  </g>
+  <path d="M682 117l22 48 52 6-38 36 10 51-46-25-46 25 10-51-38-36 52-6z" fill="#ead8a5" opacity=".5"/>
+  <path d="M61 106c55-25 123-36 214-18" fill="none" stroke="#7b2637" stroke-width="3" stroke-dasharray="9 10" opacity=".55"/>
+</svg>
