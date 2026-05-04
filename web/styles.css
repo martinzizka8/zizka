@@ -33,6 +33,7 @@ section[id] {
 
 body {
   margin: 0;
+  overflow-x: hidden;
   background: var(--paper);
   color: var(--ink);
   font-family: "Segoe UI", "Noto Sans", Arial, sans-serif;
@@ -397,6 +398,103 @@ h3 {
   line-height: 1.45;
 }
 
+.photo-band {
+  padding: 4.8rem 0;
+  color: var(--paper-strong);
+  background:
+    linear-gradient(180deg, #15130f 0%, #221d17 58%, #171713 100%),
+    var(--charcoal);
+}
+
+.photo-story {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.photo-lead,
+.photo-card,
+.route-photo {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(255, 250, 240, 0.14);
+  border-radius: var(--radius);
+  background: rgba(255, 250, 240, 0.06);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.22);
+}
+
+.photo-lead img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: center 28%;
+  filter: saturate(0.92) contrast(1.04);
+}
+
+.photo-lead figcaption,
+.photo-card figcaption,
+.route-photo figcaption {
+  color: rgba(255, 250, 240, 0.76);
+  font-size: 0.86rem;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.photo-lead figcaption {
+  padding: 0.8rem 1rem 0.95rem;
+}
+
+.photo-copy h2 {
+  color: var(--paper-strong);
+}
+
+.photo-copy p:not(.section-kicker) {
+  margin-bottom: 0;
+  color: rgba(255, 250, 240, 0.76);
+  font-size: 1.05rem;
+  line-height: 1.72;
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin-top: 1rem;
+}
+
+.photo-card a {
+  display: block;
+}
+
+.photo-card img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 26%;
+  transition: transform 180ms ease, filter 180ms ease;
+}
+
+.photo-card:nth-child(4) img,
+.photo-card:nth-child(9) img {
+  object-position: center 42%;
+}
+
+.photo-card:nth-child(10) img {
+  object-position: center 30%;
+}
+
+.photo-card:hover img,
+.photo-card:focus-within img {
+  transform: scale(1.035);
+  filter: contrast(1.04);
+}
+
+.photo-card figcaption {
+  min-height: 3.4rem;
+  padding: 0.7rem 0.78rem 0.78rem;
+}
+
 .intro-grid {
   display: grid;
   grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
@@ -683,6 +781,24 @@ h3 {
   font-weight: 900;
 }
 
+.route-photo {
+  margin-top: 1rem;
+  border-color: rgba(234, 216, 165, 0.18);
+  background: rgba(16, 16, 14, 0.2);
+  box-shadow: none;
+}
+
+.route-photo img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: var(--focus, center 30%);
+}
+
+.route-photo figcaption {
+  padding: 0.68rem 0.78rem 0.78rem;
+}
+
 .reader-shell {
   display: grid;
   grid-template-columns: 310px minmax(0, 1fr);
@@ -891,8 +1007,9 @@ h3 {
 
 .reader-volume-visual img {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
+  object-position: var(--focus, center 28%);
 }
 
 .reader-volume-visual figcaption {
@@ -1083,6 +1200,7 @@ mark {
 
   .hero-facts,
   .intro-grid,
+  .photo-story,
   .route-layout {
     grid-template-columns: 1fr;
   }
@@ -1107,6 +1225,10 @@ mark {
   .cards-grid,
   .archive-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .photo-gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
@@ -1144,16 +1266,35 @@ mark {
   }
 
   .nav-links {
-    width: 100%;
-    justify-content: flex-start;
+    align-self: stretch;
+    width: calc(100vw - 2rem);
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.24rem;
+    justify-content: stretch;
   }
 
   .nav-links a {
+    justify-content: center;
+    min-width: 0;
     padding: 0.45rem 0.5rem;
+    font-size: 0.92rem;
+    white-space: nowrap;
   }
 
   .hero {
     min-height: auto;
+  }
+
+  .section-inner {
+    width: calc(100vw - 2rem);
+    max-width: calc(100vw - 2rem);
+  }
+
+  .intro-grid > *,
+  .photo-story > * {
+    min-width: 0;
   }
 
   .hero-overlay {
@@ -1187,6 +1328,7 @@ mark {
 
   .hero-facts,
   .evidence-grid,
+  .photo-gallery,
   .visual-grid,
   .cards-grid,
   .archive-grid {

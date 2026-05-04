@@ -73,7 +73,11 @@
       title: "Začátek na Hané",
       x: 13,
       y: 43,
-      body: "Rodná obec ukotvuje biografii v konkrétním moravském místě. Web odtud vede trasu přes válku, legie, republiku a Prahu."
+      body: "Rodná obec ukotvuje biografii v konkrétním moravském místě. Web odtud vede trasu přes válku, legie, republiku a Prahu.",
+      image: "assets/photos/pochod-legionaru-s-vlajkou-thumb.jpg",
+      imageAlt: "Obrazová rekonstrukce pochodu legionářů s československou vlajkou",
+      imageCaption: "Legionářská služba jako pozdější biografický zlom.",
+      imageFocus: "center 24%"
     },
     {
       date: "1915/1916",
@@ -81,7 +85,11 @@
       title: "Zajetí na východní frontě",
       x: 25,
       y: 52,
-      body: "Stanislav, dnešní Ivano-Frankivsk, je pramenným uzlem. Odtud se Žižkův život přesouvá z rakousko-uherské služby do legionářské dráhy."
+      body: "Stanislav, dnešní Ivano-Frankivsk, je pramenným uzlem. Odtud se Žižkův život přesouvá z rakousko-uherské služby do legionářské dráhy.",
+      image: "assets/photos/zajatecky-tabor-v-snehu-thumb.jpg",
+      imageAlt: "Obrazová rekonstrukce zimního tábora s ostnatým drátem",
+      imageCaption: "Zajetí, čekání a první kroky k československému vojsku.",
+      imageFocus: "center 24%"
     },
     {
       date: "1917-1918",
@@ -89,7 +97,11 @@
       title: "Zrod Třetí úderné",
       x: 34,
       y: 58,
-      body: "První díl románu zachycuje ukrajinský prostor, výcvik a formování údernické identity. V těchto kapitolách je Žižka výrazně přítomen."
+      body: "První díl románu zachycuje ukrajinský prostor, výcvik a formování údernické identity. V těchto kapitolách je Žižka výrazně přítomen.",
+      image: "assets/photos/legionar-straz-na-rusi-thumb.jpg",
+      imageAlt: "Obrazová rekonstrukce legionáře na stráži u stanice",
+      imageCaption: "Stráž, výcvik a každodennost vznikající úderné roty.",
+      imageFocus: "center 22%"
     },
     {
       date: "březen 1918",
@@ -97,7 +109,11 @@
       title: "Na východ",
       x: 42,
       y: 49,
-      body: "Ústup z Ukrajiny a pohyb ešelonů otevírají cestu k magistrále. Románový rytmus určují vlaky, zprávy, nejistota a čekání."
+      body: "Ústup z Ukrajiny a pohyb ešelonů otevírají cestu k magistrále. Románový rytmus určují vlaky, zprávy, nejistota a čekání.",
+      image: "assets/photos/legionar-u-esalonu-thumb.jpg",
+      imageAlt: "Obrazová rekonstrukce legionáře u ešalonu Čs. legie na Rusi",
+      imageCaption: "Ešalon jako pohyblivé zázemí i bojový prostor.",
+      imageFocus: "center 24%"
     },
     {
       date: "květen-červen 1918",
@@ -105,7 +121,11 @@
       title: "Vlastním pořádkem",
       x: 54,
       y: 41,
-      body: "Po rozhodnutí postupovat dál vlastní silou se příběh mění v bojovou kroniku. Noční útoky a práce malých skupin patří k nejdramatičtějším scénám."
+      body: "Po rozhodnutí postupovat dál vlastní silou se příběh mění v bojovou kroniku. Noční útoky a práce malých skupin patří k nejdramatičtějším scénám.",
+      image: "assets/photos/nocni-utok-treti-uderne-thumb.jpg",
+      imageAlt: "Obrazová rekonstrukce nočního útoku Třetí úderné",
+      imageCaption: "Noční útoky dávají třetímu dílu prudké tempo.",
+      imageFocus: "center 42%"
     },
     {
       date: "léto 1918",
@@ -113,7 +133,11 @@
       title: "Ural a ruská demokracie",
       x: 66,
       y: 46,
-      body: "Čtvrtý díl románu se rozrůstá o Ural, broněviky, obchvaty, politiku a napětí mezi odjezdem domů a dalším bojem v Rusku."
+      body: "Čtvrtý díl románu se rozrůstá o Ural, broněviky, obchvaty, politiku a napětí mezi odjezdem domů a dalším bojem v Rusku.",
+      image: "assets/photos/legionar-v-troskach-nadrazi-thumb.jpg",
+      imageAlt: "Obrazová rekonstrukce legionáře v troskách nádraží",
+      imageCaption: "Ural a železniční uzly jako dramatické bojiště.",
+      imageFocus: "center 25%"
     },
     {
       date: "1919",
@@ -121,7 +145,11 @@
       title: "Ochrana trati",
       x: 78,
       y: 52,
-      body: "Ochrana Transsibiřské magistrály je vojensky i psychologicky jiný typ služby. Vojáci už nečekají slávu bitvy, ale dlouhé vyčerpání."
+      body: "Ochrana Transsibiřské magistrály je vojensky i psychologicky jiný typ služby. Vojáci už nečekají slávu bitvy, ale dlouhé vyčerpání.",
+      image: "assets/photos/esalon-zasobovani-thumb.jpg",
+      imageAlt: "Obrazová rekonstrukce zásobování u legionářského ešalonu",
+      imageCaption: "Dlouhá služba na magistrále stojí na vlacích, skladech a zásobování.",
+      imageFocus: "center 24%"
     },
     {
       date: "1920",
@@ -129,7 +157,11 @@
       title: "Cesta domů",
       x: 90,
       y: 61,
-      body: "Závěr románu vede přes oceán a návrat do Evropy. Dlouhá cesta domů uzavírá anabázi a vrací legionáře do nové republiky."
+      body: "Závěr románu vede přes oceán a návrat do Evropy. Dlouhá cesta domů uzavírá anabázi a vrací legionáře do nové republiky.",
+      image: "assets/photos/navrat-legionare-domu-thumb.jpg",
+      imageAlt: "Obrazová rekonstrukce návratu legionáře k rodině u vlaku",
+      imageCaption: "Návrat domů jako lidský závěr dlouhé anabáze.",
+      imageFocus: "center 24%"
     },
     {
       date: "1945",
@@ -137,7 +169,11 @@
       title: "Poslední barikáda",
       x: 16,
       y: 31,
-      body: "Biografická trasa se uzavírá v Dejvicích. Žižka padl 9. května 1945, kdy se pro mnoho lidí osvobození potkalo s poslední palbou."
+      body: "Biografická trasa se uzavírá v Dejvicích. Žižka padl 9. května 1945, kdy se pro mnoho lidí osvobození potkalo s poslední palbou.",
+      image: "assets/photos/uder-pres-prekazku-thumb.jpg",
+      imageAlt: "Obrazová rekonstrukce úderníka překonávajícího překážku",
+      imageCaption: "Motiv úderníka se v životopise vrací i v posledním boji.",
+      imageFocus: "center 38%"
     }
   ];
 
@@ -181,29 +217,34 @@
 
   const volumeVisuals = {
     "na-ukrajine": {
-      src: "assets/legion-echelon.svg",
-      alt: "Stylizovaný legionářský ešalon",
-      caption: "Ukrajina, výcvik a první ešalonová zkušenost."
+      src: "assets/photos/legionar-straz-na-rusi.jpg",
+      alt: "Obrazová rekonstrukce legionáře na stráži u stanice Čs. legie na Rusi",
+      caption: "Ukrajina, výcvik a první ešalonová zkušenost.",
+      focus: "center 22%"
     },
     "na-vychod": {
-      src: "assets/legion-echelon.svg",
-      alt: "Stylizovaný vlak československých legionářů",
-      caption: "Cesta na východ v těpluškách a vojenských vlacích."
+      src: "assets/photos/legionar-bajkal-tunel.jpg",
+      alt: "Obrazová rekonstrukce legionáře u zimní železniční trati a tunelu",
+      caption: "Cesta na východ v těpluškách a vojenských vlacích.",
+      focus: "center 24%"
     },
     "vlastnim-poradkem": {
-      src: "assets/legion-armored-train.svg",
-      alt: "Stylizovaný obrněný vlak na magistrále",
-      caption: "Rozhodnutí postupovat vlastním pořádkem."
+      src: "assets/photos/nocni-utok-treti-uderne.jpg",
+      alt: "Obrazová rekonstrukce nočního útoku Třetí úderné",
+      caption: "Rozhodnutí postupovat vlastním pořádkem.",
+      focus: "center 42%"
     },
     "za-ruskou-demokracii": {
-      src: "assets/legion-armored-train.svg",
-      alt: "Stylizovaný broněvik v bojích na Urale",
-      caption: "Ural, broněviky a boje na magistrále."
+      src: "assets/photos/legionar-v-troskach-nadrazi.jpg",
+      alt: "Obrazová rekonstrukce legionáře v troskách železničního uzlu",
+      caption: "Ural, broněviky a boje na magistrále.",
+      focus: "center 24%"
     },
     "cesta-domu": {
-      src: "assets/legion-sea-route.svg",
-      alt: "Stylizovaná námořní cesta domů",
-      caption: "Návrat přes Vladivostok, oceány a Kanadu."
+      src: "assets/photos/navrat-legionare-domu.jpg",
+      alt: "Obrazová rekonstrukce návratu legionáře k rodině u vlaku",
+      caption: "Návrat přes Vladivostok, oceány a Kanadu.",
+      focus: "center 22%"
     }
   };
 
@@ -273,9 +314,10 @@
     },
     {
       title: "Audio a obraz",
-      body: "Komplexní složka obsahuje také zvukové verze. Portrét je použitý jako hlavní vizuální motiv webu.",
+      body: "Komplexní složka obsahuje také zvukové verze, mapu a novou obrazovou rekonstrukci legionářských scén.",
       links: [
         ["assets/mapa-pohybu-treti-uderne-roty.jpg", "Mapa", "map", false, true],
+        ["#obraz", "Galerie", "images", false, false],
         ["../Komplexní/I. díl.mp3", "I. MP3", "volume-2", false, false],
         ["../Komplexní/II. díl.mp3", "II. MP3", "volume-2", false, false],
         ["../Komplexní/III. díl.mp3", "III. MP3", "volume-2", false, false],
@@ -377,10 +419,17 @@
     const detail = qs("#routeDetail");
     if (!detail) return;
     const point = routePoints[state.routeIndex];
+    const photo = point.image ? `
+      <figure class="route-photo">
+        <img src="${escapeHtml(point.image)}" alt="${escapeHtml(point.imageAlt)}" style="--focus:${escapeHtml(point.imageFocus || "center 30%")}">
+        <figcaption>${escapeHtml(point.imageCaption)}</figcaption>
+      </figure>
+    ` : "";
     detail.innerHTML = `
       <span class="route-meta">${escapeHtml(point.date)} · ${escapeHtml(point.place)}</span>
       <h3>${escapeHtml(point.title)}</h3>
       <p>${escapeHtml(point.body)}</p>
+      ${photo}
     `;
   }
 
@@ -502,7 +551,7 @@
           <p class="reader-volume-subtitle">${escapeHtml(volume.summary)} ${escapeHtml(volume.subtitle)}.</p>
         </div>
         <figure class="reader-volume-visual">
-          <img src="${escapeHtml(visual.src)}" alt="${escapeHtml(visual.alt)}">
+          <img src="${escapeHtml(visual.src)}" alt="${escapeHtml(visual.alt)}" style="--focus:${escapeHtml(visual.focus || "center 28%")}">
           <figcaption>${escapeHtml(visual.caption)}</figcaption>
         </figure>
       </header>
