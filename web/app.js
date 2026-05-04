@@ -14,97 +14,97 @@
     {
       date: "30. 8. 1896",
       title: "Krčmaň u Olomouce",
-      body: "Jan Žižka se narodil v hanácké Krčmani. Nová vojenskohistorická analýza ho staví jako osud jedné generace: od císařské uniformy přes legie až k obraně republiky v roce 1938 a na barikádě roku 1945."
+      body: "Jan Žižka se narodil v hanácké Krčmani. Jeho život vede přes všechna velká zlomení první poloviny 20. století: monarchii, legie, první republiku, Mnichov i květen 1945."
     },
     {
       date: "před 1915",
       title: "Brněnské gymnázium",
-      body: "Před odvodem studoval gymnázium v Brně. Válka mu vzdělání přerušila, maturitu dokončil až po návratu z Ruska dne 23. 9. 1920."
+      body: "Než přišel odvod, studoval gymnázium v Brně. Válka školu přerušila, ale neuzavřela: maturitu dokončil po návratu z Ruska 23. 9. 1920."
     },
     {
       date: "13. 4. 1915",
       title: "54. pěší pluk",
-      body: "Byl odveden jako jednoroční dobrovolník k olomouckému 54. pěšímu pluku, neformálně Hanáckému pluku. Tento status odpovídal vzdělanému branci s rychlejší cestou k poddůstojnické nebo důstojnické službě."
+      body: "Do války vstoupil jako jednoroční dobrovolník u olomouckého 54. pěšího pluku, zvaného Hanácký. Už tady se rýsuje muž, kterého armáda nepovede jen jako číslo v seznamu."
     },
     {
       date: "1915 / 1916",
       title: "Stanislav",
-      body: "Do ruského zajetí padl jako desátník u Stanislavi, dnešního Ivano-Frankivsku. Prameny drží dvě data: 3. 10. 1915 a 7. 8. 1916. Rozdíl je nutné nechat otevřený, shodný je však zlom od monarchie k legiím."
+      body: "U Stanislavi padl jako desátník do ruského zajetí. Prameny se rozcházejí v datu, ne ve významu: právě tady se jeho cesta odklání od monarchie k legiím."
     },
     {
       date: "1917",
       title: "7. střelecký pluk Tatranský",
-      body: "Do československého vojska v Rusku vstoupil podle pramenů buď 3. 1., nebo 1. 8. 1917. Původně je veden u 7. československého střeleckého pluku Tatranského."
+      body: "Rok 1917 ho přivádí do československého vojska v Rusku. Záznamy uvádějí 3. 1. nebo 1. 8.; jisté je zařazení k 7. střeleckému pluku Tatranskému."
     },
     {
       date: "26. 9. 1917",
       title: "I. úderný prapor",
-      body: "Byl zařazen k elitnímu I. údernému praporu. Úderníci byli dobrovolníci pro nejtěžší práci: průzkum, prudký útok, boj zblízka, granáty, nože a rychlé rozhodování v malých skupinách."
+      body: "Přichází k I. údernému praporu. To není běžná služba, ale dobrovolná cesta do prvních linií: průzkum, prudký útok, boj zblízka a rozhodování ve vteřinách."
     },
     {
       date: "1918",
       title: "Magistrála a mobilní válka",
-      body: "Během občanské války v Rusku se jeho služba odehrávala v pohyblivé válce o železniční uzly, mosty, sklady, obrněné vlaky a ešelony. Právě tady se biografie nejvíc potkává s románem Třetí úderná."
+      body: "V Rusku se nebojuje o zákop, ale o pohyb: nádraží, mosty, sklady, obrněné vlaky a ešelony. Tady se Žižkova doložená služba nejvíc přibližuje světu Třetí úderné."
     },
     {
       date: "10. 3. 1919",
       title: "Praporčík",
-      body: "Po bojových zkušenostech a důstojnické škole byl povýšen na praporčíka. V legiích to nebyl jen formální postup, ale potvrzení autority získané ve službě a v boji."
+      body: "Po důstojnické škole je povýšen na praporčíka. V legionářském prostředí to znamená víc než novou hodnost: potvrzení důvěry, kterou si člověk musel odsloužit."
     },
     {
       date: "23. 7. / 23. 9. 1920",
       title: "Návrat a maturita",
-      body: "V legiích skončil 23. 7. 1920 jako podporučík a po návratu rychle dokončil brněnskou maturitu. Poté se rozhodl zůstat v československé armádě jako důstojník z povolání."
+      body: "Domů se vrací jako podporučík. Do dvou měsíců doplňuje maturitu v Brně a volí si dráhu, která už nebude provizoriem války: službu v československé armádě."
     },
     {
       date: "listopad 1920",
       title: "Hraničářský prapor 6",
-      body: "Převzal velení čety u hraničářského praporu 6 v Domažlicích. Mladá republika potřebovala legionáře právě na hranicích, kde se vojenská služba potkávala s bezpečnostní každodenností."
+      body: "U Hraničářského praporu 6 v Domažlicích vede četu. Mladý stát posílá zkušené legionáře tam, kde se politika mění v hlídky, rozkazy a každodenní ostrahu hranic."
     },
     {
       date: "1. 11. 1921",
       title: "Kapitán a technická rota",
-      body: "Dosáhl hodnosti kapitána a velel technické rotě. Do jeho profilu tak vedle pěchotní zkušenosti vstupují ženijní, spojovací a organizační schopnosti."
+      body: "Stává se kapitánem a velitelem technické roty. K pěchotní odvaze přibývá druhá kvalita: schopnost stavět, organizovat a držet jednotku v chodu."
     },
     {
       date: "1925-1926",
       title: "Horský prapor a letecký kurz",
-      body: "Sloužil u Horského praporu 3 v Dolním Kubíně. Na jaře 1926 absolvoval v Chebu moderní kurz pěchotních pozorovatelů z letounů a v červnu 1926 byl povýšen na štábního kapitána."
+      body: "Dolní Kubín, horská služba a potom Cheb: kurz pěchotních pozorovatelů z letounů. Žižka se neučí jen válku minulou, ale i tu, která se teprve rodí."
     },
     {
       date: "1933-1936",
       title: "Horské a pěší útvary",
-      body: "Ve třicátých letech prošel Horským pěším plukem 1 a poté pěším plukem 40 ve Valašském Meziříčí. Dne 1. 7. 1936 byl povýšen na majora pěchoty."
+      body: "Ve třicátých letech slouží u horských a pěších útvarů, mimo jiné ve Valašském Meziříčí. Dne 1. 7. 1936 dosahuje hodnosti majora pěchoty."
     },
     {
       date: "1938",
       title: "Strážní prapor XXII",
-      body: "V Lužických horách velel Strážnímu praporu XXII. Jeho úsek sahal od Dolského mlýna přes Kamenický Šenov až k zalesněné kótě Bouřný a opíral se o lehké opevnění."
+      body: "V Lužických horách velí Strážnímu praporu XXII. Úsek od Dolského mlýna ke kótě Bouřný stojí na lehkém opevnění a na mužích, kteří čekají rozkaz k obraně."
     },
     {
       date: "září 1938",
       title: "SOS, Freikorps a Mnichov",
-      body: "Po útocích Sudetendeutsches Freikorps a krizi Stráže obrany státu se Žižkův prapor stal pevnou hrází za předsunutými hlídkami. Po Mnichovu musel dohlédnout na disciplinované vyklizení pozic bez boje."
+      body: "Pohraničí hoří přepady Freikorpsu a tlakem na hlídky SOS. Žižkův prapor drží zadní linii. Po Mnichovu však nepřichází boj, ale rozkaz vyklidit pozice."
     },
     {
       date: "březen 1939",
       title: "Praha a ztracená uniforma",
-      body: "Krátce před okupací byl převelen do Prahy k Ministerstvu národní obrany. Po rozpuštění armády žil s manželkou Olgou v Praze jako bývalý důstojník zaniklého státu."
+      body: "Krátce před okupací míří do Prahy k Ministerstvu národní obrany. Po rozpuštění armády zůstává ve městě s manželkou Olgou jako důstojník bez armády."
     },
     {
       date: "1939-1945",
       title: "Odboj s opatrnou poznámkou",
-      body: "Dokument upozorňuje na častou záměnu skutečného majora s odbojovými skupinami nesoucími jméno Jan Žižka. Jeho každodenní vazba na Obranu národa není výslovně doložená, jisté je čekání na příležitost k ozbrojenému vystoupení."
+      body: "Jméno Jan Žižka svádí k záměnám. Některé stopy patří odbojovým skupinám pojmenovaným po husitském vojevůdci. U majora z roku 1896 je jisté hlavně to, že čekal na okamžik, kdy může znovu bojovat."
     },
     {
       date: "5.-9. 5. 1945",
       title: "Pražské povstání",
-      body: "V Dejvicích a Bubenči blokovaly barikády ústupové trasy německých jednotek směrem k Ruzyni a na západ. U Žižky lze z jeho hodnosti a zkušenosti opatrně dovodit roli organizátora a instruktora v místním odporu."
+      body: "V Dejvicích a Bubenči barikády zastavují ústup německých jednotek k Ruzyni. Žižkova hodnost a zkušenost naznačují, že na místě nebyl jen bojovníkem, ale i člověkem, který uměl vést."
     },
     {
       date: "9. 5. 1945",
       title: "Velflíkova a Flemingovo",
-      body: "Na barikádě v prostoru Velflíkovy ulice a Flemingova náměstí byl zasažen střelou do krku a zemřel v poslední palbě povstání. Pietní deska je vedena v CEVH pod číslem CZE-0006-21198."
+      body: "Na barikádě u Velflíkovy ulice a Flemingova náměstí ho zasáhla střela do krku. Zemřel ve chvíli, kdy Praha už vítala osvobození, ale některé ulice ještě bojovaly."
     }
   ];
 
@@ -115,10 +115,10 @@
       title: "Začátek na Hané",
       x: 13,
       y: 43,
-      body: "Rodná obec ukotvuje biografii v konkrétním moravském místě. Web odtud vede trasu přes válku, legie, republiku a Prahu.",
+      body: "Tady začíná mapa, která se brzy roztáhne přes půl světa. Z moravské obce vede Žižkova cesta do války, legií, první republiky a nakonec do Prahy.",
       image: "assets/photos/pochod-legionaru-s-vlajkou-thumb.jpg",
       imageAlt: "Obrazová rekonstrukce pochodu legionářů s československou vlajkou",
-      imageCaption: "Legionářská služba jako pozdější biografický zlom.",
+      imageCaption: "Z Hané až k legionářskému pochodu.",
       imageFocus: "center 24%"
     },
     {
@@ -127,10 +127,10 @@
       title: "Zajetí na východní frontě",
       x: 25,
       y: 52,
-      body: "Stanislav, dnešní Ivano-Frankivsk, je pramenným uzlem. Odtud se Žižkův život přesouvá z rakousko-uherské služby do legionářské dráhy.",
+      body: "Stanislav je místo zlomu. Z rakousko-uherského desátníka se po zajetí stává muž, před kterým se otevírá cesta k československému vojsku v Rusku.",
       image: "assets/photos/zajatecky-tabor-v-snehu-thumb.jpg",
       imageAlt: "Obrazová rekonstrukce zimního tábora s ostnatým drátem",
-      imageCaption: "Zajetí, čekání a první kroky k československému vojsku.",
+      imageCaption: "Zajetí jako začátek nové volby.",
       imageFocus: "center 24%"
     },
     {
@@ -139,10 +139,10 @@
       title: "Zrod Třetí úderné",
       x: 34,
       y: 58,
-      body: "První díl románu zachycuje ukrajinský prostor, výcvik a formování údernické identity. V těchto kapitolách je Žižka výrazně přítomen.",
+      body: "Ukrajinské kapitoly dávají rotě tvář: výcvik, první vztahy, první tvrdost. Právě tady román staví Žižku blízko středu dění.",
       image: "assets/photos/legionar-straz-na-rusi-thumb.jpg",
       imageAlt: "Obrazová rekonstrukce legionáře na stráži u stanice",
-      imageCaption: "Stráž, výcvik a každodennost vznikající úderné roty.",
+      imageCaption: "Výcvik, stráž a vznik údernické identity.",
       imageFocus: "center 22%"
     },
     {
@@ -151,10 +151,10 @@
       title: "Na východ",
       x: 42,
       y: 49,
-      body: "Ústup z Ukrajiny a pohyb ešelonů otevírají cestu k magistrále. Románový rytmus určují vlaky, zprávy, nejistota a čekání.",
+      body: "Ešelony se dávají do pohybu a krajina za dveřmi vagonu se mění rychleji než rozkazy. Cesta na východ přináší nejistotu, zprávy a první tlak magistrály.",
       image: "assets/photos/legionar-u-esalonu-thumb.jpg",
       imageAlt: "Obrazová rekonstrukce legionáře u ešalonu Čs. legie na Rusi",
-      imageCaption: "Ešalon jako pohyblivé zázemí i bojový prostor.",
+      imageCaption: "Vlak jako domov, sklad i úniková cesta.",
       imageFocus: "center 24%"
     },
     {
@@ -163,10 +163,10 @@
       title: "Vlastním pořádkem",
       x: 54,
       y: 41,
-      body: "Po rozhodnutí postupovat dál vlastní silou se příběh mění v bojovou kroniku. Noční útoky a práce malých skupin patří k nejdramatičtějším scénám.",
+      body: "Když se čekání mění v rozhodnutí, tempo zrychlí. Rota postupuje vlastní silou a román přepíná do nočních útoků, malých skupin a ostrých střetů.",
       image: "assets/photos/nocni-utok-treti-uderne-thumb.jpg",
       imageAlt: "Obrazová rekonstrukce nočního útoku Třetí úderné",
-      imageCaption: "Noční útoky dávají třetímu dílu prudké tempo.",
+      imageCaption: "Rozhodnutí, které udělá z cesty boj.",
       imageFocus: "center 42%"
     },
     {
@@ -175,10 +175,10 @@
       title: "Ural a ruská demokracie",
       x: 66,
       y: 46,
-      body: "Čtvrtý díl románu se rozrůstá o Ural, broněviky, obchvaty, politiku a napětí mezi odjezdem domů a dalším bojem v Rusku.",
+      body: "Na Urale už nejde jen o trasu. Do příběhu vstupují obrněné vlaky, obchvaty, politika a otázka, zda legie ještě bojují za cestu domů, nebo za cizí Rusko.",
       image: "assets/photos/legionar-v-troskach-nadrazi-thumb.jpg",
       imageAlt: "Obrazová rekonstrukce legionáře v troskách nádraží",
-      imageCaption: "Ural a železniční uzly jako dramatické bojiště.",
+      imageCaption: "Železniční uzly jako politika v pohybu.",
       imageFocus: "center 25%"
     },
     {
@@ -187,10 +187,10 @@
       title: "Ochrana trati",
       x: 78,
       y: 52,
-      body: "Ochrana Transsibiřské magistrály je vojensky i psychologicky jiný typ služby. Vojáci už nečekají slávu bitvy, ale dlouhé vyčerpání.",
+      body: "Magistrála vyžaduje jinou odvahu než útok. Dny se táhnou, úseky se střídají a hrdinství má podobu hlídky, zimy, únavy a udrženého pořádku.",
       image: "assets/photos/esalon-zasobovani-thumb.jpg",
       imageAlt: "Obrazová rekonstrukce zásobování u legionářského ešalonu",
-      imageCaption: "Dlouhá služba na magistrále stojí na vlacích, skladech a zásobování.",
+      imageCaption: "Udržet trať znamená udržet návrat.",
       imageFocus: "center 24%"
     },
     {
@@ -199,10 +199,10 @@
       title: "Cesta domů",
       x: 90,
       y: 61,
-      body: "Závěr románu vede přes oceán a návrat do Evropy. Dlouhá cesta domů uzavírá anabázi a vrací legionáře do nové republiky.",
+      body: "Vladivostok není konec, jen brána. Za ním jsou lodě, oceány, Kanada, Evropa a návrat do státu, který vznikl během jejich nepřítomnosti.",
       image: "assets/photos/navrat-legionare-domu-thumb.jpg",
       imageAlt: "Obrazová rekonstrukce návratu legionáře k rodině u vlaku",
-      imageCaption: "Návrat domů jako lidský závěr dlouhé anabáze.",
+      imageCaption: "Domov po cestě kolem světa.",
       imageFocus: "center 24%"
     },
     {
@@ -211,10 +211,10 @@
       title: "Poslední barikáda",
       x: 16,
       y: 31,
-      body: "Biografická trasa se uzavírá v Dejvicích, kde barikády blokovaly ústupové trasy německých jednotek k Ruzyni a na západ. Žižka padl 9. května 1945 na barikádě u Velflíkovy ulice a Flemingova náměstí; pamětní deska má evidenční číslo CZE-0006-21198.",
+      body: "Poslední bod neleží na Sibiři, ale v Dejvicích. Barikády tu blokují ústup na Ruzyni a západ. Žižka padá 9. 5. 1945 u Velflíkovy ulice a Flemingova náměstí.",
       image: "assets/photos/uder-pres-prekazku-thumb.jpg",
       imageAlt: "Obrazová rekonstrukce úderníka překonávajícího překážku",
-      imageCaption: "Motiv úderníka se v životopise vrací i v posledním boji na barikádě.",
+      imageCaption: "Úderník se na konci vrací jako obránce barikády.",
       imageFocus: "center 38%"
     }
   ];
@@ -223,62 +223,62 @@
     {
       key: "těpluška",
       pattern: /těplušk/i,
-      note: "Těpluška byl vytápěný nákladní vagon upravený k přepravě mužstva. V románu je zároveň domov, ubikace, klubovna i pozorovatelna světa za dveřmi ešalonu."
+      note: "Těpluška je vytápěný nákladní vagon pro mužstvo. V románu funguje jako domov na kolejích: ložnice, kuchyň, klubovna i okno do cizí země."
     },
     {
       key: "ešelon",
       pattern: /ešelon/i,
-      note: "Ešelon označuje vojenský vlakový transport. U ruských legií se z něj stal pohyblivý tábor, sklad i bojová jednotka."
+      note: "Ešelon je vojenský vlakový transport. U legií je to mnohem víc: pohyblivý tábor, sklad, kancelář i jednotka, která se umí bránit."
     },
     {
       key: "broněvik",
       pattern: /broněvik|panceřák/i,
-      note: "Broněvik, obrněný vlak, byl pro boje na magistrále klíčový. Trať, lokomotivy a děla v románu často rozhodují stejně jako pěchota."
+      note: "Broněvik je obrněný vlak. Na magistrále rozhoduje stejně tvrdě jako pěchota, protože kdo ovládá trať, ovládá pohyb, palbu i zásoby."
     },
     {
       key: "vlastním pořádkem",
       pattern: /vlastním pořádkem/i,
-      note: "Formule vlastním pořádkem vyjadřuje rozhodnutí legií probít se dál vlastní silou, když se přeprava po Rusku změnila v otázku přežití."
+      note: "Vlastním pořádkem znamená: nečekat, až cestu někdo dovolí. Legie se rozhodly probít dál vlastní silou, protože přeprava po Rusku se změnila v boj o přežití."
     },
     {
       key: "Štefánik",
       pattern: /Štefánik/i,
-      note: "Milan Rastislav Štefánik v sibiřské části příběhu symbolizuje spojení frontového života s politikou vznikajícího Československa."
+      note: "Štefánik připomíná, že legionářský příběh není jen fronta. Každý ešalon zároveň veze politickou naději na budoucí Československo."
     },
     {
       key: "Kolčak",
       pattern: /Kolčak/i,
-      note: "Admirál Alexandr Kolčak vstupuje do příběhu jako mocenský faktor ruské občanské války. Pro legionáře znamenal komplikaci jejich návratu."
+      note: "Kolčak je mocenský uzel ruské občanské války. Pro legionáře je důležitý hlavně tím, jak komplikuje jejich hlavní cíl: dostat se domů."
     },
     {
       key: "Žižka",
       pattern: /Žižk/i,
-      note: "Žižkovy výskyty v románu je dobré číst dvojitě: jako stopu konkrétního legionáře a zároveň jako motiv jména zatíženého českou vojenskou pamětí."
+      note: "Když se v románu objeví Žižka, čtěte dvě vrstvy najednou: konkrétního legionáře a jméno, které v české vojenské paměti zní silněji než běžné příjmení."
     },
     {
       key: "úderný prapor",
       pattern: /údern(ý|ého|ém|í).*prapor|úderní/i,
-      note: "Úderný prapor byl elitní dobrovolnický útvar určený pro rychlý útok, průzkum a boj zblízka. U Jana Žižky je doloženo zařazení k I. údernému praporu 26. 9. 1917."
+      note: "Úderný prapor je jednotka pro nejtěžší okamžiky: průzkum, rychlý útok a boj zblízka. Žižka byl k I. údernému praporu zařazen 26. 9. 1917."
     },
     {
       key: "přísaha",
       pattern: /přísah|slib/i,
-      note: "Legionářská přísaha nebyla jen vojenský formalismus. Pro bývalé zajatce znamenala vědomý přechod do služby budoucí republice a riziko trestu smrti při opětovném zajetí monarchií."
+      note: "Legionářská přísaha není jen obřad. Pro bývalého zajatce znamená přestoupit na druhou stranu dějin a nést za to skutečné riziko."
     },
     {
       key: "sos",
       pattern: /\bSOS\b|Stráž obrany státu/i,
-      note: "Stráž obrany státu spojovala četníky, policisty, finanční stráž a armádní posily. V roce 1938 tvořila předsunutou nárazníkovou vrstvu před armádními prapory v pohraničí."
+      note: "SOS spojovala četníky, policisty, finanční stráž a armádní posily. V roce 1938 stála v první nárazové vrstvě, často ještě před pravidelnou armádou."
     },
     {
       key: "freikorps",
       pattern: /Freikorps|henleinov/i,
-      note: "Sudetendeutsches Freikorps byl ozbrojený sudetoněmecký útvar podporovaný nacistickým Německem. V září 1938 přepadával hlídky, úřady a pohraniční stanoviště."
+      note: "Sudetendeutsches Freikorps byl ozbrojený sudetoněmecký útvar podporovaný nacistickým Německem. V září 1938 měnil pohraničí v sérii přepadů, sabotáží a strachu."
     },
     {
       key: "barikáda",
       pattern: /barikád/i,
-      note: "Pražské barikády měly zpomalit německou techniku a uzavřít ústupové trasy. Žižkův poslední boj je doložen u Velflíkovy ulice a Flemingova náměstí v Dejvicích."
+      note: "Barikáda je jednoduchý nápad s obrovským účinkem: zastavit techniku tím, co město samo nabídne. Žižkův poslední boj patří k Velflíkově ulici a Flemingovu náměstí."
     }
   ];
 
@@ -286,31 +286,31 @@
     "na-ukrajine": {
       src: "assets/photos/legionar-straz-na-rusi.jpg",
       alt: "Obrazová rekonstrukce legionáře na stráži u stanice Čs. legie na Rusi",
-      caption: "Ukrajina, výcvik a první ešalonová zkušenost.",
+      caption: "Ukrajina: místo, kde se z dobrovolníků stává rota.",
       focus: "center 22%"
     },
     "na-vychod": {
       src: "assets/photos/legionar-bajkal-tunel.jpg",
       alt: "Obrazová rekonstrukce legionáře u zimní železniční trati a tunelu",
-      caption: "Cesta na východ v těpluškách a vojenských vlacích.",
+      caption: "Cesta na východ: vlak jako domov i riziko.",
       focus: "center 24%"
     },
     "vlastnim-poradkem": {
       src: "assets/photos/nocni-utok-treti-uderne.jpg",
       alt: "Obrazová rekonstrukce nočního útoku Třetí úderné",
-      caption: "Rozhodnutí postupovat vlastním pořádkem.",
+      caption: "Vlastním pořádkem: okamžik, kdy čekání končí.",
       focus: "center 42%"
     },
     "za-ruskou-demokracii": {
       src: "assets/photos/legionar-v-troskach-nadrazi.jpg",
       alt: "Obrazová rekonstrukce legionáře v troskách železničního uzlu",
-      caption: "Ural, broněviky a boje na magistrále.",
+      caption: "Ural: nádraží, broněviky a politika pod palbou.",
       focus: "center 24%"
     },
     "cesta-domu": {
       src: "assets/photos/navrat-legionare-domu.jpg",
       alt: "Obrazová rekonstrukce návratu legionáře k rodině u vlaku",
-      caption: "Návrat přes Vladivostok, oceány a Kanadu.",
+      caption: "Domů se nejede zpátky, ale kolem světa.",
       focus: "center 22%"
     }
   };
@@ -357,7 +357,7 @@
     {
       term: "Anabáze",
       category: "historie",
-      body: "Dlouhá cesta československých legionářů přes Rusko a Sibiř k Vladivostoku a potom lodí a vlakem zpět do vlasti. Ve webu je to spojnice mezi mapou, románem a Žižkovou službou.",
+      body: "Dlouhá legionářská cesta přes Rusko a Sibiř k Vladivostoku a odtud lodí a vlakem domů. Na webu spojuje mapu, román i Žižkovu skutečnou službu.",
       related: ["Sibiř", "Vladivostok", "Magistrála"]
     },
     {
@@ -423,7 +423,7 @@
     {
       term: "Jan Žižka",
       category: "osoby",
-      body: "Major pěchoty, ruský legionář, úderník, sběratel exlibris a účastník posledních bojů v Praze. Nejde o Jana Žižku z Trocnova ani o partyzánskou brigádu nesoucí jeho jméno; web sleduje skutečného důstojníka narozeného roku 1896.",
+      body: "Major pěchoty, ruský legionář, úderník a později obránce pražské barikády. Web sleduje skutečného důstojníka narozeného roku 1896, ne husitského vojevůdce ani partyzánskou brigádu stejného jména.",
       related: ["I. úderný prapor", "Dejvice"]
     },
     {
@@ -447,7 +447,7 @@
     {
       term: "Magistrála",
       category: "zeleznice",
-      body: "Zkrácené označení pro Transsibiřskou magistrálu. V Třetí úderné není jen trať, ale hlavní osa přežití, zásobování, bojů a návratu.",
+      body: "Zkrácené označení pro Transsibiřskou magistrálu. V Třetí úderné je to páteř celého světa: kdo drží trať, drží zásoby, pohyb i šanci na návrat.",
       related: ["Transsibiřská magistrála", "Ešalon"]
     },
     {
@@ -525,7 +525,7 @@
     {
       term: "Třetí úderná",
       category: "roman",
-      body: "Románová kronika legionářské roty v pěti svazcích. Na webu funguje jako textový archiv, mapa pojmů i čtenářský prostor s audio a video epizodami.",
+      body: "Románová kronika legionářské roty v pěti svazcích. Web z ní dělá čtenářský prostor: text, mapa, poznámky, slovník, audio i video na jednom místě.",
       related: ["Míla", "Úderná rota"]
     },
     {
@@ -735,7 +735,7 @@
     {
       term: "Strážní prapor XXII",
       category: "vojensko",
-      body: "Prapor, kterému Žižka velel v roce 1938 v Lužických horách. Bránil úsek lehkého opevnění od Dolského mlýna přes Kamenický Šenov směrem ke kótě Bouřný.",
+      body: "Prapor, kterému Žižka velel v roce 1938 v Lužických horách. Držel úsek lehkého opevnění od Dolského mlýna přes Kamenický Šenov ke kótě Bouřný.",
       related: ["Lužické hory", "Mnichovská dohoda"]
     },
     {
@@ -761,7 +761,7 @@
   const archiveGroups = [
     {
       title: "Životopis a pátrání",
-      body: "Místní syntézy k Janu Žižkovi, jeho vojenské službě, pramenným rozporům, roku 1938, Pražskému povstání a paměti.",
+      body: "Základní složka pro čtení Žižkova života: vojenská dráha, sporná data, rok 1938, Dejvice a paměť místa.",
       links: [
         ["assets/docs/jan-zizka-vojenska-draha-a-smrt.docx", "Vojenská dráha DOCX", "file-text", false, true],
         ["../Major Jan Žižka (1896–1945).docx", "Biografie DOCX", "file-text", false, false],
@@ -770,7 +770,7 @@
     },
     {
       title: "PDF facsimile románu",
-      body: "Původní skeny všech dílů Třetí úderné, vhodné pro kontrolu přepisu a práci se stránkou.",
+      body: "Původní skeny drží kontakt se stránkou knihy. Hodí se pro kontrolu přepisu i pro čtení dobového rozvržení.",
       links: [
         ["../Třetí úderná I - Na Ukrajině.pdf", "I. PDF", "file", false, true],
         ["../Třetí úderná II - Na východ.pdf", "II. PDF", "file", false, false],
@@ -781,7 +781,7 @@
     },
     {
       title: "Upravené přepisy",
-      body: "Čistší textová vrstva, ze které je napojená interaktivní čtečka na této stránce.",
+      body: "Čistá textová vrstva pro čtečku. Samotný román zůstává oddělený od doprovodných poznámek a webových úprav.",
       links: data.volumes.map((volume, index) => [
         volume.sourceDoc,
         `${index + 1}. DOCX`,
@@ -792,7 +792,7 @@
     },
     {
       title: "Audio a obraz",
-      body: "Nové podcastové stopy, pět video epizod, aktualizovaná mapa a obrazová rekonstrukce legionářských scén.",
+      body: "Poslech, video, mapa a obrazové scény pro chvíle, kdy se chcete do románu dostat i jinak než přes odstavce.",
       links: [
         ["assets/mapa-pohybu-treti-uderne-roty.jpg", "Mapa", "map", false, true],
         ["#obraz", "Galerie", "images", false, false],
@@ -810,7 +810,7 @@
     },
     {
       title: "Dohledané prameny",
-      body: "Externí stránky k identitě, službě, pietnímu místu, exlibris a kontextu legií v Rusku.",
+      body: "Odkazy ven z webu: identita, služba, pietní místo, exlibris a širší kontext ruských legií.",
       links: [
         ["https://www.csol.cz/legionar/130525/", "ČsOL/VÚA", "external-link", true, true],
         ["https://www.vhu.cz/jan-zizka-jan-zizka-padl-v-boji-9-kvetna/", "VHÚ", "external-link", true, false],
@@ -976,7 +976,7 @@
     const visual = volumeVisuals[volume.id] || volumeVisuals["na-ukrajine"];
     panel.innerHTML = `
       <h3>Média dílu</h3>
-      <p class="reader-source-caption">${escapeHtml(media.label)} · podcast, video a Žižkova biografická vrstva k aktuálnímu dílu románu</p>
+      <p class="reader-source-caption">${escapeHtml(media.label)} · poslech, video a Žižkův kontext k tomuto dílu</p>
       <div class="source-row">
         ${sourcePill(volume.sourcePdf, "PDF", "file", false)}
         ${sourcePill(volume.sourceDoc, "DOCX", "file-type", false)}

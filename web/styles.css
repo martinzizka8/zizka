@@ -1328,6 +1328,18 @@ mark {
     padding-top: 10rem;
   }
 
+  .hero-image {
+    filter: grayscale(0.75) contrast(1.04);
+    opacity: 0.9;
+  }
+
+  .hero-overlay {
+    background:
+      radial-gradient(circle at 74% 40%, rgba(234, 216, 165, 0.1), transparent 19rem),
+      linear-gradient(90deg, rgba(16, 16, 14, 0.98) 0%, rgba(16, 16, 14, 0.9) 50%, rgba(16, 16, 14, 0.24) 78%, rgba(16, 16, 14, 0.68) 100%),
+      linear-gradient(0deg, rgba(16, 16, 14, 0.78) 0%, rgba(16, 16, 14, 0.06) 42%);
+  }
+
   .hero-facts,
   .intro-grid,
   .photo-story,
@@ -1434,21 +1446,25 @@ mark {
 
   .hero-overlay {
     background:
-      linear-gradient(90deg, rgba(16, 16, 14, 0.96), rgba(16, 16, 14, 0.68)),
-      linear-gradient(0deg, rgba(16, 16, 14, 0.82), rgba(16, 16, 14, 0.12));
+      linear-gradient(180deg, rgba(16, 16, 14, 0.18) 7rem, rgba(16, 16, 14, 0.18) 20rem, rgba(16, 16, 14, 0.92) 31rem, rgba(16, 16, 14, 0.98) 100%),
+      linear-gradient(90deg, rgba(16, 16, 14, 0.58), rgba(16, 16, 14, 0.12) 45%, rgba(16, 16, 14, 0.58));
   }
 
   .hero-image {
-    top: 8.1rem;
-    right: -2.2rem;
+    top: 7.05rem;
+    right: 50%;
     bottom: auto;
-    width: 58vw;
-    height: 34vh;
-    opacity: 0.52;
+    z-index: -1;
+    width: min(72vw, 18rem);
+    height: min(44vh, 22rem);
+    transform: translateX(50%);
+    object-position: center top;
+    filter: grayscale(0.62) contrast(1.04);
+    opacity: 0.94;
   }
 
   .hero-content {
-    padding: 8rem 0 1.2rem;
+    padding: calc(7.8rem + min(44vh, 22rem)) 0 1.2rem;
   }
 
   .hero-content .hero-lede {
