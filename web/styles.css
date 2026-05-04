@@ -1319,16 +1319,26 @@ mark {
   }
 
   .site-header {
+    position: sticky;
+    top: 0;
     align-items: flex-start;
     flex-direction: column;
     padding: 0.75rem 1rem;
   }
 
   .hero-content {
-    padding-top: 10rem;
+    padding: calc(2rem + min(42vh, 24rem)) 0 3rem;
   }
 
   .hero-image {
+    top: 1.25rem;
+    right: 50%;
+    bottom: auto;
+    z-index: -1;
+    width: min(54vw, 22rem);
+    height: min(42vh, 24rem);
+    transform: translateX(50%);
+    object-position: center top;
     filter: grayscale(0.75) contrast(1.04);
     opacity: 0.9;
   }
@@ -1350,7 +1360,7 @@ mark {
   .hero-facts {
     position: static;
     width: min(100%, calc(100% - 2rem));
-    margin: -7rem auto 1rem;
+    margin: 0 auto 1rem;
     transform: none;
   }
 
@@ -1451,12 +1461,12 @@ mark {
   }
 
   .hero-image {
-    top: 7.05rem;
+    top: 1.15rem;
     right: 50%;
     bottom: auto;
     z-index: -1;
-    width: min(72vw, 18rem);
-    height: min(44vh, 22rem);
+    width: min(76vw, 19rem);
+    height: min(46vh, 23rem);
     transform: translateX(50%);
     object-position: center top;
     filter: grayscale(0.62) contrast(1.04);
@@ -1464,7 +1474,7 @@ mark {
   }
 
   .hero-content {
-    padding: calc(7.8rem + min(44vh, 22rem)) 0 1.2rem;
+    padding: calc(2rem + min(46vh, 23rem)) 0 1.2rem;
   }
 
   .hero-content .hero-lede {
