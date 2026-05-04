@@ -5,7 +5,9 @@
     volumeIndex: 0,
     mode: "full",
     query: "",
-    routeIndex: 0
+    routeIndex: 0,
+    glossaryQuery: "",
+    glossaryCategory: "all"
   };
 
   const timeline = [
@@ -248,36 +250,278 @@
     }
   };
 
-  const characters = [
+  const volumeMedia = {
+    "na-ukrajine": {
+      audio: "assets/media/podcast-na-ukrajine.m4a",
+      video: "assets/media/video-na-ukrajine.mp4",
+      label: "Epizoda I"
+    },
+    "na-vychod": {
+      audio: "assets/media/podcast-na-vychod.m4a",
+      video: "assets/media/video-na-vychod.mp4",
+      label: "Epizoda II"
+    },
+    "vlastnim-poradkem": {
+      audio: "assets/media/podcast-vlastnim-poradkem.m4a",
+      video: "assets/media/video-vlastnim-poradkem.mp4",
+      label: "Epizoda III"
+    },
+    "za-ruskou-demokracii": {
+      audio: "assets/media/podcast-za-ruskou-demokracii.m4a",
+      video: "assets/media/video-za-ruskou-demokracii.mp4",
+      label: "Epizoda IV"
+    },
+    "cesta-domu": {
+      audio: "assets/media/podcast-ochrana-magistraly-cesta-domu.m4a",
+      video: "assets/media/video-ochrana-magistraly-cesta-domu.mp4",
+      label: "Epizoda V"
+    }
+  };
+
+  const glossaryCategories = [
+    ["all", "Vše"],
+    ["vojensko", "Vojensko"],
+    ["zeleznice", "Železnice"],
+    ["mista", "Místa"],
+    ["osoby", "Osoby"],
+    ["historie", "Historie"],
+    ["roman", "Román"]
+  ];
+
+  const glossaryTerms = [
     {
-      tag: "biografie",
-      title: "Jan Žižka",
-      body: "Major pěchoty, ruský legionář, úderník, sběratel exlibris a padlý bojovník Pražského povstání."
+      term: "Anabáze",
+      category: "historie",
+      body: "Dlouhá cesta československých legionářů přes Rusko a Sibiř k Vladivostoku a potom lodí a vlakem zpět do vlasti. Ve webu je to spojnice mezi mapou, románem a Žižkovou službou.",
+      related: ["Sibiř", "Vladivostok", "Magistrála"]
     },
     {
-      tag: "román",
-      title: "Míla",
-      body: "Jedna z výrazných čtenářských postav Třetí úderné. Jeho pohled často drží tempo scén mezi humorem, únavou a prudkým bojem."
+      term: "Bachmač",
+      category: "mista",
+      body: "Důležitý ukrajinský železniční uzel a bojiště z března 1918. Pro legie znamenal krytí ústupu na východ a přechod od výcviku k tvrdé frontové zkušenosti.",
+      related: ["Ukrajina", "Ešalon"]
     },
     {
-      tag: "jednotka",
-      title: "Třetí úderná rota",
-      body: "Kolektivní hrdina románu: bratři v ešelonech, nočních útocích, debatách, improvizaci a dlouhém návratu domů."
+      term: "Bolševici",
+      category: "historie",
+      body: "Označení pro revoluční mocenský tábor po říjnu 1917. V Třetí úderné jsou často protivníkem v bojích o trať, města, sklady a strategické body.",
+      related: ["Ruská občanská válka", "Kolčak"]
     },
     {
-      tag: "velení",
-      title: "Sergej Vojcechovský",
-      body: "Velitel spojený s čeljabinskou skupinou a operacemi na Urale. V románové mapě drží vojenský rámec rozsáhlých přesunů."
+      term: "Broněvik",
+      category: "zeleznice",
+      body: "Obrněný vlak s pancéřovanými vozy, kulomety nebo děly. V bojích na magistrále rozhodoval o palebné síle, průzkumu i psychologickém dojmu.",
+      related: ["Magistrála", "Ešalon"]
     },
     {
-      tag: "politika",
-      title: "Štefánik a Gajda",
-      body: "Dvě jména, která v pozdějších dílech přinášejí zprávy z domova, politické napětí a otázku, zda ještě bojovat, nebo už jet domů."
+      term: "Československé legie v Rusku",
+      category: "historie",
+      body: "Dobrovolnické české a slovenské jednotky vznikající z krajanů a zajatců. Jejich služba v Rusku se stala jedním ze základních příběhů vzniku Československa.",
+      related: ["Dobrovolec", "Zborov", "Anabáze"]
     },
     {
-      tag: "pojem",
-      title: "Exlibris",
-      body: "Nečekaná kulturní vrstva Žižkovy osobnosti. V katalogových záznamech vystupuje jako sběratel a autor soupisů."
+      term: "ČsOL/VÚA",
+      category: "historie",
+      body: "Databázová a archivní stopa, která u Žižky drží základní vojenské údaje. Na webu slouží jako jeden z hlavních kontrolních pramenů vedle VHÚ a dalších zdrojů.",
+      related: ["Pramen", "VHÚ"]
+    },
+    {
+      term: "Dobrovolec",
+      category: "vojensko",
+      body: "V legionářském kontextu muž, který vstoupil do československého vojska. Neznamená to pohodlnou službu, ale vědomé vystoupení z role zajatce do role vojáka budoucí republiky.",
+      related: ["Legionář", "Přísaha"]
+    },
+    {
+      term: "Ešalon",
+      category: "zeleznice",
+      body: "Vojenský vlakový transport. U legií byl zároveň dopravou, skladem, ubikací, kanceláří, kuchyní, dílnou i symbolem pohyblivého domova.",
+      related: ["Těpluška", "Magistrála"]
+    },
+    {
+      term: "Exlibris",
+      category: "historie",
+      body: "Knižní značka vlastníka knihy. U Jana Žižky je to nečekaná kulturní vrstva: prameny ho vedou také jako sběratele a redaktora exlibrisových zpráv.",
+      related: ["Jan Žižka", "Archiv"]
+    },
+    {
+      term: "Gajda",
+      category: "osoby",
+      body: "Radola Gajda, legionářský velitel výrazně spojený se sibiřskou etapou. V románovém i historickém kontextu představuje energické velení i pozdější kontroverzní stopu.",
+      related: ["Štefánik", "Vojcechovský"]
+    },
+    {
+      term: "Halič",
+      category: "mista",
+      body: "Východní frontový prostor rakousko-uherské armády. U Žižky se k němu váže zajetí u Stanislavi, tedy okamžik, kdy se jeho vojenská dráha lámala k legiím.",
+      related: ["Stanislav", "Zajetí"]
+    },
+    {
+      term: "Jan Žižka",
+      category: "osoby",
+      body: "Major pěchoty, ruský legionář, úderník, sběratel exlibris a účastník posledních bojů v Praze. Web sleduje jeho životopis i románovou stopu v Třetí úderné.",
+      related: ["Úderný prapor", "Dejvice"]
+    },
+    {
+      term: "Jekatěrinburg",
+      category: "mista",
+      body: "Uralské město důležité pro sibiřskou etapu legií. V mapě a románu označuje prostor, kde se cesta domů mění v zápas o železniční uzly a politický směr.",
+      related: ["Ural", "Broněvik"]
+    },
+    {
+      term: "Kolčak",
+      category: "osoby",
+      body: "Admirál Alexandr Kolčak, vůdčí postava protibolševického tábora na Sibiři. Pro legionáře představoval složitou politickou otázku, protože jejich cílem byl hlavně návrat domů.",
+      related: ["Ruská občanská válka", "Štefánik"]
+    },
+    {
+      term: "Legionář",
+      category: "vojensko",
+      body: "Voják československých legií. V ruské větvi často býval předtím zajatcem rakousko-uherské armády a později se stal nositelem československé státní myšlenky.",
+      related: ["Dobrovolec", "Přísaha"]
+    },
+    {
+      term: "Magistrála",
+      category: "zeleznice",
+      body: "Zkrácené označení pro Transsibiřskou magistrálu. V Třetí úderné není jen trať, ale hlavní osa přežití, zásobování, bojů a návratu.",
+      related: ["Transsibiřská magistrála", "Ešalon"]
+    },
+    {
+      term: "Míla",
+      category: "roman",
+      body: "Výrazná románová postava Třetí úderné. Jeho pohled často drží lidské měřítko scén: únavu, humor, strach, kamarádství a náhlé přepnutí do boje.",
+      related: ["Třetí úderná", "Úderník"]
+    },
+    {
+      term: "Nižněudinsk",
+      category: "mista",
+      body: "Sibiřský bod spojený s ochranou magistrály a závěrečnou etapou před odjezdem na východ. V mapě stojí blízko přechodu od strážní služby k cestě domů.",
+      related: ["Magistrála", "Vladivostok"]
+    },
+    {
+      term: "Petropavlovsk",
+      category: "mista",
+      body: "Město na západosibiřské trase, v románu spojené s rozhodnutím postupovat dál vlastní silou. Patří k uzlům, kde se vlaková cesta mění v bojovou kroniku.",
+      related: ["Vlastním pořádkem", "Ešalon"]
+    },
+    {
+      term: "Pramen",
+      category: "historie",
+      body: "Doklad, ze kterého se staví biografická a historická vrstva webu. U Žižky je důležité držet pohromadě jisté údaje i rozpory, například v datu zajetí a vstupu do legií.",
+      related: ["ČsOL/VÚA", "VHÚ"]
+    },
+    {
+      term: "Přísaha",
+      category: "vojensko",
+      body: "Formální i morální vstup do služby. V legionářském vyprávění nese význam osobního závazku, který přesahoval běžnou vojenskou poslušnost.",
+      related: ["Dobrovolec", "Legionář"]
+    },
+    {
+      term: "Ruská občanská válka",
+      category: "historie",
+      body: "Mocenský konflikt po roce 1917, v němž se legie ocitly mezi bolševiky, bílými silami, spojenci a vlastní snahou dostat se domů.",
+      related: ["Bolševici", "Kolčak"]
+    },
+    {
+      term: "Samara",
+      category: "mista",
+      body: "Město na Volze a jeden z bodů postupů roku 1918. V mapě pomáhá číst přechod z ukrajinské roviny do širšího ruského prostoru.",
+      related: ["Volha", "Ural"]
+    },
+    {
+      term: "Sibiř",
+      category: "mista",
+      body: "Obrovský prostor, který v románu znamená vzdálenost, zimu, čekání a dlouhou službu na trati. Sibiř mění hrdinskou anabázi v zkoušku vytrvalosti.",
+      related: ["Magistrála", "Nižněudinsk"]
+    },
+    {
+      term: "Stanislav",
+      category: "mista",
+      body: "Dnešní Ivano-Frankivsk. U Jana Žižky je to místo zajetí uváděné prameny s rozdílným datem, ale shodným významem: přechod od císařské armády k legiím.",
+      related: ["Halič", "Zajetí"]
+    },
+    {
+      term: "Štefánik",
+      category: "osoby",
+      body: "Milan Rastislav Štefánik propojuje vojenský příběh legií s diplomacií a vznikem Československa. V sibiřské části nese zprávu, že fronta a politika patří k sobě.",
+      related: ["Gajda", "Československé legie v Rusku"]
+    },
+    {
+      term: "Těpluška",
+      category: "zeleznice",
+      body: "Vytápěný nákladní vagon upravený pro mužstvo. V románu je to pokoj, noclehárna, klubovna, nemocniční kout i pozorovací rám celého světa za dveřmi.",
+      related: ["Ešalon", "Magistrála"]
+    },
+    {
+      term: "Transsibiřská magistrála",
+      category: "zeleznice",
+      body: "Železniční osa od evropského Ruska přes Sibiř k Dálnému východu. Kdo držel trať, držel pohyb, zásoby a možnost návratu.",
+      related: ["Magistrála", "Vladivostok"]
+    },
+    {
+      term: "Třetí úderná",
+      category: "roman",
+      body: "Románová kronika legionářské roty v pěti svazcích. Na webu funguje jako textový archiv, mapa pojmů i čtenářský prostor s audio a video epizodami.",
+      related: ["Míla", "Úderná rota"]
+    },
+    {
+      term: "Úderná rota",
+      category: "vojensko",
+      body: "Jednotka určená k prudkým útokům, průzkumu a rizikovým akcím. V románu je zároveň bojovým kolektivem a nositelem skupinové identity.",
+      related: ["Úderník", "Třetí úderná"]
+    },
+    {
+      term: "Úderník",
+      category: "vojensko",
+      body: "Voják úderné jednotky. Slovo v sobě drží rychlost, tvrdost, dobrovolný risk i románovou představu muže, který jde první.",
+      related: ["Úderná rota", "Jan Žižka"]
+    },
+    {
+      term: "Ural",
+      category: "mista",
+      body: "Hranice Evropy a Asie a výrazný prostor bojů roku 1918. V románu je to kraj průmyslových měst, železničních uzlů a složitých obchvatů.",
+      related: ["Jekatěrinburg", "Zlatoust"]
+    },
+    {
+      term: "VHÚ",
+      category: "historie",
+      body: "Vojenský historický ústav. Jeho texty doplňují Žižkovu biografii a zároveň ukazují, kde se prameny liší od databázových záznamů.",
+      related: ["Pramen", "ČsOL/VÚA"]
+    },
+    {
+      term: "Vladivostok",
+      category: "mista",
+      body: "Dálnovýchodní přístav a brána k návratu. Pro legie znamenal konec sibiřské železniční cesty a začátek plavby přes oceány.",
+      related: ["Anabáze", "Cesta domů"]
+    },
+    {
+      term: "Vlastním pořádkem",
+      category: "roman",
+      body: "Formule rozhodnutí postupovat dál vlastní silou, když se z přepravy stala otázka boje. Je to jeden z klíčových motivů třetího dílu.",
+      related: ["Petropavlovsk", "Úderná rota"]
+    },
+    {
+      term: "Vojcechovský",
+      category: "osoby",
+      body: "Sergej Vojcechovský, legionářský velitel spojený s operacemi na Urale a v širší sibiřské etapě. Ve webu pomáhá ukotvit vojenský rámec románu.",
+      related: ["Gajda", "Ural"]
+    },
+    {
+      term: "Zajatecký tábor",
+      category: "historie",
+      body: "Místo, kde mnoho budoucích legionářů čekalo po zajetí. Tábor není konec příběhu, ale často předsíň rozhodnutí vstoupit do československého vojska.",
+      related: ["Zajetí", "Dobrovolec"]
+    },
+    {
+      term: "Zajetí",
+      category: "vojensko",
+      body: "Okamžik vyřazení z rakousko-uherské služby, který mohl otevřít cestu k legiím. U Žižky je doložen pramenně, ale s rozdílným datováním.",
+      related: ["Stanislav", "Pramen"]
+    },
+    {
+      term: "Zlatoust",
+      category: "mista",
+      body: "Uralské město a jeden z výrazných bodů bojů a přesunů. V románové mapě patří k místům, kde se trať, průmysl a válka silně překrývají.",
+      related: ["Ural", "Jekatěrinburg"]
     }
   ];
 
@@ -314,16 +558,20 @@
     },
     {
       title: "Audio a obraz",
-      body: "Komplexní složka obsahuje také zvukové verze, mapu a novou obrazovou rekonstrukci legionářských scén.",
+      body: "Nové podcastové stopy, pět video epizod, aktualizovaná mapa a obrazová rekonstrukce legionářských scén.",
       links: [
         ["assets/mapa-pohybu-treti-uderne-roty.jpg", "Mapa", "map", false, true],
         ["#obraz", "Galerie", "images", false, false],
-        ["../Komplexní/I. díl.mp3", "I. MP3", "volume-2", false, false],
-        ["../Komplexní/II. díl.mp3", "II. MP3", "volume-2", false, false],
-        ["../Komplexní/III. díl.mp3", "III. MP3", "volume-2", false, false],
-        ["../Komplexní/IV. díl.mp3", "IV. MP3", "volume-2", false, false],
-        ["../Komplexní/V. díl.mp3", "V. MP3", "volume-2", false, false],
-        ["../Video_Generation_Request_Fulfilled.mp4", "Video", "film", false, false]
+        ["assets/media/podcast-na-ukrajine.m4a", "I. audio", "volume-2", false, false],
+        ["assets/media/podcast-na-vychod.m4a", "II. audio", "volume-2", false, false],
+        ["assets/media/podcast-vlastnim-poradkem.m4a", "III. audio", "volume-2", false, false],
+        ["assets/media/podcast-za-ruskou-demokracii.m4a", "IV. audio", "volume-2", false, false],
+        ["assets/media/podcast-ochrana-magistraly-cesta-domu.m4a", "V. audio", "volume-2", false, false],
+        ["assets/media/video-na-ukrajine.mp4", "I. video", "film", false, false],
+        ["assets/media/video-na-vychod.mp4", "II. video", "film", false, false],
+        ["assets/media/video-vlastnim-poradkem.mp4", "III. video", "film", false, false],
+        ["assets/media/video-za-ruskou-demokracii.mp4", "IV. video", "film", false, false],
+        ["assets/media/video-ochrana-magistraly-cesta-domu.mp4", "V. video", "film", false, false]
       ]
     },
     {
@@ -437,6 +685,14 @@
     return data.volumes[state.volumeIndex] || data.volumes[0];
   }
 
+  function mediaForVolume(volume) {
+    return volumeMedia[volume.id] || {
+      audio: volume.audio,
+      video: "",
+      label: "Epizoda"
+    };
+  }
+
   function renderVolumeList() {
     const list = qs("#volumeList");
     if (!list) return;
@@ -482,12 +738,23 @@
     const panel = qs("#readerSourcePanel");
     const volume = currentVolume();
     if (!panel || !volume) return;
+    const media = mediaForVolume(volume);
+    const visual = volumeVisuals[volume.id] || volumeVisuals["na-ukrajine"];
     panel.innerHTML = `
+      <h3>Média dílu</h3>
+      <p class="reader-source-caption">${escapeHtml(media.label)} · podcast a video k aktuálnímu dílu románu</p>
       <div class="source-row">
         ${sourcePill(volume.sourcePdf, "PDF", "file", false)}
         ${sourcePill(volume.sourceDoc, "DOCX", "file-type", false)}
+        ${sourcePill(media.audio, "Audio", "volume-2", false)}
+        ${media.video ? sourcePill(media.video, "Video", "film", false) : ""}
       </div>
-      <audio controls preload="none" src="${escapeHtml(volume.audio)}"></audio>
+      <audio controls preload="none" src="${escapeHtml(media.audio)}"></audio>
+      ${media.video ? `
+        <video class="episode-video" controls preload="metadata" playsinline poster="${escapeHtml(visual.src)}">
+          <source src="${escapeHtml(media.video)}" type="video/mp4">
+        </video>
+      ` : ""}
     `;
   }
 
@@ -578,16 +845,64 @@
     renderIcons();
   }
 
-  function renderCharacters() {
-    const grid = qs("#characterGrid");
-    if (!grid) return;
-    grid.innerHTML = characters.map((item) => `
-      <article class="character-card">
-        <span class="tag">${escapeHtml(item.tag)}</span>
-        <h3>${escapeHtml(item.title)}</h3>
-        <p>${escapeHtml(item.body)}</p>
-      </article>
+  function categoryLabel(category) {
+    const item = glossaryCategories.find(([id]) => id === category);
+    return item ? item[1] : category;
+  }
+
+  function glossaryMatchesTerm(item) {
+    const categoryMatch = state.glossaryCategory === "all" || item.category === state.glossaryCategory;
+    const query = state.glossaryQuery.trim().toLocaleLowerCase("cs-CZ");
+    if (!categoryMatch) return false;
+    if (!query) return true;
+    const haystack = [item.term, item.body, item.category, ...item.related].join(" ").toLocaleLowerCase("cs-CZ");
+    return haystack.includes(query);
+  }
+
+  function renderGlossary() {
+    const filters = qs("#glossaryFilters");
+    const grid = qs("#glossaryGrid");
+    const count = qs("#glossaryCount");
+    if (!filters || !grid) return;
+
+    filters.innerHTML = glossaryCategories.map(([id, label]) => `
+      <button class="filter-chip ${state.glossaryCategory === id ? "active" : ""}" data-glossary-category="${escapeHtml(id)}">
+        ${escapeHtml(label)}
+      </button>
     `).join("");
+
+    const visibleTerms = glossaryTerms.filter(glossaryMatchesTerm);
+    if (count) {
+      count.textContent = `${formatNumber(visibleTerms.length)} z ${formatNumber(glossaryTerms.length)} pojmů`;
+    }
+
+    grid.innerHTML = visibleTerms.map((item) => `
+      <article class="glossary-card">
+        <div>
+          <span class="glossary-tag">${escapeHtml(categoryLabel(item.category))}</span>
+          <h3>${highlightGlossary(item.term)}</h3>
+          <p>${highlightGlossary(item.body)}</p>
+        </div>
+        <div class="glossary-related">
+          ${item.related.map((related) => `<span>${highlightGlossary(related)}</span>`).join("")}
+        </div>
+      </article>
+    `).join("") || `<div class="reader-empty">Pro zadaný filtr tu není žádný pojem.</div>`;
+
+    qsa(".filter-chip", filters).forEach((button) => {
+      button.addEventListener("click", () => {
+        state.glossaryCategory = button.dataset.glossaryCategory;
+        renderGlossary();
+      });
+    });
+  }
+
+  function highlightGlossary(text) {
+    const safe = escapeHtml(text);
+    const query = state.glossaryQuery.trim();
+    if (!query) return safe;
+    const pattern = new RegExp(`(${escapeRegExp(query)})`, "gi");
+    return safe.replace(pattern, "<mark>$1</mark>");
   }
 
   function renderArchive() {
@@ -628,14 +943,25 @@
     }
   }
 
+  function bindGlossaryControls() {
+    const search = qs("#glossarySearch");
+    if (search) {
+      search.addEventListener("input", () => {
+        state.glossaryQuery = search.value;
+        renderGlossary();
+      });
+    }
+  }
+
   function init() {
     renderTimeline();
     renderRoute();
     renderRouteDetail();
     renderReader();
-    renderCharacters();
+    renderGlossary();
     renderArchive();
     bindReaderControls();
+    bindGlossaryControls();
     renderIcons();
   }
 

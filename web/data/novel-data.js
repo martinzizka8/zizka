@@ -9,7 +9,7 @@ window.NOVEL_DATA = {
       "summary": "Prameny se slévají v ukrajinském prostoru, kde se z dobrovolníků postupně rodí třetí úderná rota.",
       "sourceDoc": "../Přepis - upravený/Třetí úderná – Na Ukrajině I. (upraveno).docx",
       "sourcePdf": "../Třetí úderná I - Na Ukrajině.pdf",
-      "audio": "../Komplexní/I. díl.mp3",
+      "audio": "assets/media/podcast-na-ukrajine.m4a",
       "stats": {
         "paragraphs": 332,
         "characters": 153871,
@@ -1487,7 +1487,7 @@ window.NOVEL_DATA = {
       "summary": "Těplušky a ešelony se dávají do pohybu, nejistota se mění v napětí a cestu k Transsibiřské magistrále.",
       "sourceDoc": "../Přepis - upravený/Třetí úderná – Na Východ II. (upraveno).docx",
       "sourcePdf": "../Třetí úderná II - Na východ.pdf",
-      "audio": "../Komplexní/II. díl.mp3",
+      "audio": "assets/media/podcast-na-vychod.m4a",
       "stats": {
         "paragraphs": 275,
         "characters": 89651,
@@ -2842,7 +2842,7 @@ window.NOVEL_DATA = {
       "summary": "Po rozkazu postupovat vlastním pořádkem se rota dostává do ostrých střetů a Žižka vystupuje v bojových scénách.",
       "sourceDoc": "../Přepis - upravený/Třetí úderná III - Vlastním pořádkem (upraveno).docx",
       "sourcePdf": "../Třetí úderná III - Vlastním pořádkem.pdf",
-      "audio": "../Komplexní/III. díl.mp3",
+      "audio": "assets/media/podcast-vlastnim-poradkem.m4a",
       "stats": {
         "paragraphs": 376,
         "characters": 89032,
@@ -4430,7 +4430,7 @@ window.NOVEL_DATA = {
       "summary": "Nejrozsáhlejší bojová část: broněviky, obchvaty, uralské závody, politické dilema a narůstající únava.",
       "sourceDoc": "../Přepis - upravený/Třetí úderná IV. - Za ruskou demokracii (upraveno).docx",
       "sourcePdf": "../Třetí úderná IV - Za ruskou demokracii.pdf",
-      "audio": "../Komplexní/IV. díl.mp3",
+      "audio": "assets/media/podcast-za-ruskou-demokracii.m4a",
       "stats": {
         "paragraphs": 571,
         "characters": 221364,
@@ -6982,7 +6982,7 @@ window.NOVEL_DATA = {
       "summary": "Z bojové kroniky se stává příběh čekání, ochrany magistrály, politického vyčerpání a konečné cesty domů.",
       "sourceDoc": "../Přepis - upravený/Třetí úderná V - cesta domů (upraveno).docx",
       "sourcePdf": "../Třetí úderná V-VI - Ochrana magistrály, Cesta domů.pdf",
-      "audio": "../Komplexní/V. díl.mp3",
+      "audio": "assets/media/podcast-ochrana-magistraly-cesta-domu.m4a",
       "stats": {
         "paragraphs": 377,
         "characters": 142513,

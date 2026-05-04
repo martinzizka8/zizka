@@ -251,11 +251,11 @@
                 <h3>Díly</h3>
                 <div class="volume-list" id="volumeList"></div>
               </div>
+              <div class="reader-panel reader-source-panel" id="readerSourcePanel"></div>
               <div class="reader-panel">
                 <h3>Oddíly</h3>
                 <div class="heading-list" id="headingList"></div>
               </div>
-              <div class="reader-panel reader-source-panel" id="readerSourcePanel"></div>
             </aside>
 
             <div class="reader-main">
@@ -286,10 +286,23 @@
       <section id="postavy" class="section section-light" aria-labelledby="postavy-title">
         <div class="section-inner">
           <div class="section-heading">
-            <p class="section-kicker">Kartotéka čtení</p>
-            <h2 id="postavy-title">Postavy, motivy a pojmy</h2>
+            <p class="section-kicker">Slovník čtení</p>
+            <h2 id="postavy-title">Pojmy, osoby a místa Třetí úderné</h2>
+            <p>
+              Slovník propojuje románové výrazy, legionářskou železnici, místa anabáze,
+              osoby a pramenné pojmy, které se vyplatí držet po ruce při čtení.
+            </p>
           </div>
-          <div class="cards-grid" id="characterGrid"></div>
+          <div class="glossary-tools">
+            <label class="search-box glossary-search">
+              <i data-lucide="search"></i>
+              <span class="sr-only">Hledat ve slovníku</span>
+              <input id="glossarySearch" type="search" placeholder="Hledat pojem, osobu nebo místo">
+            </label>
+            <div class="glossary-filters" id="glossaryFilters" aria-label="Filtr slovníku"></div>
+            <div class="glossary-count" id="glossaryCount"></div>
+          </div>
+          <div class="glossary-grid" id="glossaryGrid"></div>
         </div>
       </section>
 
