@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jan Žižka a Třetí úderná</title>
-    <meta name="description" content="Interaktivní web o majoru Janu Žižkovi, československých legiích a románu Třetí úderná.">
+    <meta name="description" content="Interaktivní web o majoru Janu Žižkovi, jeho vojenské dráze, československých legiích a románu Třetí úderná.">
     <link rel="stylesheet" href="styles.css">
     <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
     <script defer src="data/novel-data.js"></script>
@@ -24,6 +24,7 @@
         <a href="#prameny">Prameny</a>
         <a href="#trasa">Trasa</a>
         <a href="#roman">Román</a>
+        <a href="#postavy">Slovník</a>
         <a href="#archiv">Archiv</a>
       </nav>
     </header>
@@ -36,8 +37,9 @@
           <p class="eyebrow">major pěchoty · ruský legionář · úderník</p>
           <h1 id="hero-title">Jan Žižka a Třetí úderná</h1>
           <p class="hero-lede">
-            Život muže, který prošel rakousko-uherskou armádou, ruskými legiemi,
-            prvorepublikovou službou a padl 9. května 1945 na barikádě v Dejvicích.
+            Život muže z Krčmaně a brněnského gymnázia: od 54. pěšího pluku přes
+            I. úderný prapor ruských legií, prvorepublikovou armádu, Strážní prapor XXII
+            a poslední barikádu v Dejvicích.
           </p>
           <div class="hero-actions" aria-label="Rychlé odkazy">
             <a class="button button-primary" href="#roman"><i data-lucide="book-open"></i><span>Otevřít román</span></a>
@@ -71,9 +73,10 @@
             <h2>Biografie, archiv a román v jednom čtenářském prostoru</h2>
           </div>
           <p>
-            Web spojuje ověřené životopisné body, pramenné rozpory, cestu legií po Rusku
-            a plný text upravených přepisů Třetí úderné. Žižka tu není jen položka v databázi,
-            ale postava, kterou lze sledovat na mapě, v časové ose i přímo v románu.
+            Web spojuje ověřené životopisné body, pramenné rozpory, cestu legií po Rusku,
+            detailní vojenskou dráhu a plný text upravených přepisů Třetí úderné. Žižka tu
+            není jen položka v databázi, ale postava, kterou lze sledovat na mapě, v časové
+            ose, ve slovníku i přímo v románu.
           </p>
         </div>
       </section>
@@ -165,11 +168,50 @@
             <p class="section-kicker">Životopisná osa</p>
             <h2 id="zivot-title">Od Hané po dejvickou barikádu</h2>
             <p>
-              Osa vychází z místních dokumentů, databáze ČsOL/VÚA, VHÚ a evidence
-              vojenských pietních míst.
+              Osa vychází z místních dokumentů, nové vojenskohistorické analýzy,
+              databáze ČsOL/VÚA, VHÚ a evidence vojenských pietních míst.
             </p>
           </div>
           <div class="timeline" id="timeline"></div>
+
+          <div class="service-grid" aria-label="Vojenská dráha v detailu">
+            <article class="service-card">
+              <span class="service-meta">1915-1920</span>
+              <h3>Od císařského desátníka k legionářskému důstojníkovi</h3>
+              <p>
+                Žižkova první válka začíná u olomouckého 54. pěšího pluku a láme se v zajetí
+                u Stanislavi. V Rusku prochází přes 7. střelecký pluk Tatranský k I. údernému
+                praporu, kde se spojuje románová postava četaře s doloženou službou elitního úderníka.
+              </p>
+            </article>
+            <article class="service-card">
+              <span class="service-meta">1920-1936</span>
+              <h3>Profesionál první republiky</h3>
+              <p>
+                Po návratu skládá maturitu v Brně, slouží v Domažlicích, Dolním Kubíně a Valašském
+                Meziříčí, vede čety i technickou rotu a v Chebu absolvuje kurz pěchotních
+                pozorovatelů z letounů. V roce 1936 je majorem pěchoty.
+              </p>
+            </article>
+            <article class="service-card">
+              <span class="service-meta">1938</span>
+              <h3>Lužické hory a nevybojovaná obrana</h3>
+              <p>
+                Strážní prapor XXII drží úsek lehkého opevnění od Dolského mlýna ke kótě Bouřný.
+                Za předsunutými hlídkami SOS čelí tlaku henleinovců a Freikorpsu, ale po Mnichovu
+                dostává bolestnější rozkaz: vyklidit připravené pozice bez boje.
+              </p>
+            </article>
+            <article class="service-card">
+              <span class="service-meta">1939-1945</span>
+              <h3>Praha, okupace a poslední boj</h3>
+              <p>
+                Po zániku armády žije v Praze s manželkou Olgou. Nový dokument opatrně odděluje
+                skutečného majora od odbojových skupin pojmenovaných po husitském Žižkovi; jistým
+                bodem zůstává jeho ozbrojené vystoupení a smrt 9. 5. 1945 v Dejvicích.
+              </p>
+            </article>
+          </div>
         </div>
       </section>
 
@@ -185,10 +227,11 @@
               <h3>Jisté kotevní body</h3>
               <ul>
                 <li>Narozen 30. 8. 1896 v Krčmani u Olomouce.</li>
-                <li>Sloužil u 54. pěšího pluku a vstoupil do ruských legií.</li>
-                <li>V legiích skončil u úderného praporu jako podporučík.</li>
+                <li>13. 4. 1915 nastoupil k 54. pěšímu pluku jako jednoroční dobrovolník.</li>
+                <li>26. 9. 1917 byl zařazen k I. údernému praporu ruských legií.</li>
+                <li>10. 3. 1919 byl po důstojnické škole povýšen na praporčíka.</li>
+                <li>23. 9. 1920 dokončil maturitu v Brně.</li>
                 <li>V roce 1936 byl majorem pěchoty.</li>
-                <li>Padl 9. 5. 1945 v Praze 6, Dejvicích.</li>
               </ul>
             </article>
             <article class="evidence-card">
@@ -202,12 +245,33 @@
               </ul>
             </article>
             <article class="evidence-card">
+              <div class="evidence-icon"><i data-lucide="shield-alert"></i></div>
+              <h3>Interpretace s rezervou</h3>
+              <ul>
+                <li>Jméno Jan Žižka se v pramenech často míchá se středověkým vojevůdcem.</li>
+                <li>Odbojové skupiny stejného jména nejsou automaticky dokladem o osobě majora.</li>
+                <li>Každodenní vazba na Obranu národa je možná, ale ne výslovně doložená.</li>
+                <li>Jeho role organizátora v Dejvicích je rozumná dedukce z hodnosti a zkušeností.</li>
+              </ul>
+            </article>
+            <article class="evidence-card">
+              <div class="evidence-icon"><i data-lucide="map-pin"></i></div>
+              <h3>Pieta v Dejvicích</h3>
+              <ul>
+                <li>Padl 9. 5. 1945 na barikádě v prostoru Velflíkova - Flemingovo.</li>
+                <li>Smrtelné zranění je v novém dokumentu popsáno jako průstřel krku.</li>
+                <li>Pamětní deska na Flemingově nám. 1417/5 má CEVH CZE-0006-21198.</li>
+                <li>Přesná lokalizace fyzického hrobu v analyzovaných pramenech zůstává otevřená.</li>
+              </ul>
+            </article>
+            <article class="evidence-card">
               <div class="evidence-icon"><i data-lucide="library"></i></div>
-              <h3>Druhá tvář vojáka</h3>
+              <h3>Kulturní stopa</h3>
               <ul>
                 <li>Autoritní záznam UPOL ho vede také jako sběratele exlibris.</li>
                 <li>Katalogy evidují jeho exlibris od Galandy, Krs, Michla a dalších.</li>
                 <li>Redigoval zprávy Spolku sběratelů a přátel exlibris.</li>
+                <li>Tahle vrstva doplňuje obraz vojáka, který nebyl jen frontovým profilem.</li>
               </ul>
             </article>
           </div>
@@ -290,7 +354,8 @@
             <h2 id="postavy-title">Pojmy, osoby a místa Třetí úderné</h2>
             <p>
               Slovník propojuje románové výrazy, legionářskou železnici, místa anabáze,
-              osoby a pramenné pojmy, které se vyplatí držet po ruce při čtení.
+              osoby, rok 1938, Pražské povstání a pramenné pojmy, které se vyplatí
+              držet po ruce při čtení.
             </p>
           </div>
           <div class="glossary-tools">

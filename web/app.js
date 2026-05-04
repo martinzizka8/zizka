@@ -14,57 +14,97 @@
     {
       date: "30. 8. 1896",
       title: "Krčmaň u Olomouce",
-      body: "Jan Žižka se narodil v hanácké obci Krčmaň. Pozdější prameny ho vedou jako důstojníka, legionáře a také sběratele exlibris."
+      body: "Jan Žižka se narodil v hanácké Krčmani. Nová vojenskohistorická analýza ho staví jako osud jedné generace: od císařské uniformy přes legie až k obraně republiky v roce 1938 a na barikádě roku 1945."
+    },
+    {
+      date: "před 1915",
+      title: "Brněnské gymnázium",
+      body: "Před odvodem studoval gymnázium v Brně. Válka mu vzdělání přerušila, maturitu dokončil až po návratu z Ruska dne 23. 9. 1920."
     },
     {
       date: "13. 4. 1915",
       title: "54. pěší pluk",
-      body: "Po vypuknutí první světové války byl odveden jako jednoroční dobrovolník k olomouckému 54. pěšímu pluku rakousko-uherské armády."
+      body: "Byl odveden jako jednoroční dobrovolník k olomouckému 54. pěšímu pluku, neformálně Hanáckému pluku. Tento status odpovídal vzdělanému branci s rychlejší cestou k poddůstojnické nebo důstojnické službě."
     },
     {
       date: "1915 / 1916",
       title: "Stanislav",
-      body: "Zdroje se rozcházejí v datu zajetí u Stanislavi. ČsOL/VÚA uvádí 7. 8. 1916, VHÚ 3. 10. 1915. Obě linie se shodují na přechodu z císařské armády k legiím."
+      body: "Do ruského zajetí padl jako desátník u Stanislavi, dnešního Ivano-Frankivsku. Prameny drží dvě data: 3. 10. 1915 a 7. 8. 1916. Rozdíl je nutné nechat otevřený, shodný je však zlom od monarchie k legiím."
     },
     {
       date: "1917",
-      title: "Československé legie v Rusku",
-      body: "Vstoupil do československého vojska v Rusku. Databáze ČsOL ho vede u 7. střeleckého pluku, později u úderného praporu."
+      title: "7. střelecký pluk Tatranský",
+      body: "Do československého vojska v Rusku vstoupil podle pramenů buď 3. 1., nebo 1. 8. 1917. Původně je veden u 7. československého střeleckého pluku Tatranského."
     },
     {
-      date: "1918-1920",
-      title: "Úderný prapor a anabáze",
-      body: "Žižkova stopa se potkává s románovým světem Třetí úderné: ešelony, těplušky, boje na magistrále, Ural a cesta k návratu."
+      date: "26. 9. 1917",
+      title: "I. úderný prapor",
+      body: "Byl zařazen k elitnímu I. údernému praporu. Úderníci byli dobrovolníci pro nejtěžší práci: průzkum, prudký útok, boj zblízka, granáty, nože a rychlé rozhodování v malých skupinách."
     },
     {
-      date: "23. 7. 1920",
-      title: "Návrat do vlasti",
-      body: "Podle ČsOL/VÚA skončil v legiích 23. 7. 1920 a vrátil se domů jako podporučík. V československé armádě zůstal jako důstojník z povolání."
+      date: "1918",
+      title: "Magistrála a mobilní válka",
+      body: "Během občanské války v Rusku se jeho služba odehrávala v pohyblivé válce o železniční uzly, mosty, sklady, obrněné vlaky a ešelony. Právě tady se biografie nejvíc potkává s románem Třetí úderná."
     },
     {
-      date: "1921-1936",
-      title: "Prvním republice ve službě",
-      body: "Sloužil u hraničářských, horských a pěších útvarů. Prošel Domažlicemi, Dolním Kubínem, Valašským Meziříčím a dalšími posádkami."
+      date: "10. 3. 1919",
+      title: "Praporčík",
+      body: "Po bojových zkušenostech a důstojnické škole byl povýšen na praporčíka. V legiích to nebyl jen formální postup, ale potvrzení autority získané ve službě a v boji."
     },
     {
-      date: "1. 7. 1936",
-      title: "Major pěchoty",
-      body: "V roce 1936 byl povýšen na majora pěchoty. Tato hodnost se stala součástí jeho pozdější paměti i pietního označení."
+      date: "23. 7. / 23. 9. 1920",
+      title: "Návrat a maturita",
+      body: "V legiích skončil 23. 7. 1920 jako podporučík a po návratu rychle dokončil brněnskou maturitu. Poté se rozhodl zůstat v československé armádě jako důstojník z povolání."
+    },
+    {
+      date: "listopad 1920",
+      title: "Hraničářský prapor 6",
+      body: "Převzal velení čety u hraničářského praporu 6 v Domažlicích. Mladá republika potřebovala legionáře právě na hranicích, kde se vojenská služba potkávala s bezpečnostní každodenností."
+    },
+    {
+      date: "1. 11. 1921",
+      title: "Kapitán a technická rota",
+      body: "Dosáhl hodnosti kapitána a velel technické rotě. Do jeho profilu tak vedle pěchotní zkušenosti vstupují ženijní, spojovací a organizační schopnosti."
+    },
+    {
+      date: "1925-1926",
+      title: "Horský prapor a letecký kurz",
+      body: "Sloužil u Horského praporu 3 v Dolním Kubíně. Na jaře 1926 absolvoval v Chebu moderní kurz pěchotních pozorovatelů z letounů a v červnu 1926 byl povýšen na štábního kapitána."
+    },
+    {
+      date: "1933-1936",
+      title: "Horské a pěší útvary",
+      body: "Ve třicátých letech prošel Horským pěším plukem 1 a poté pěším plukem 40 ve Valašském Meziříčí. Dne 1. 7. 1936 byl povýšen na majora pěchoty."
     },
     {
       date: "1938",
       title: "Strážní prapor XXII",
-      body: "V kritickém roce 1938 velel Strážnímu praporu XXII v oblasti Kamenického Šenova a Lužických hor, spojenému s obranou pohraničního opevnění."
+      body: "V Lužických horách velel Strážnímu praporu XXII. Jeho úsek sahal od Dolského mlýna přes Kamenický Šenov až k zalesněné kótě Bouřný a opíral se o lehké opevnění."
+    },
+    {
+      date: "září 1938",
+      title: "SOS, Freikorps a Mnichov",
+      body: "Po útocích Sudetendeutsches Freikorps a krizi Stráže obrany státu se Žižkův prapor stal pevnou hrází za předsunutými hlídkami. Po Mnichovu musel dohlédnout na disciplinované vyklizení pozic bez boje."
+    },
+    {
+      date: "březen 1939",
+      title: "Praha a ztracená uniforma",
+      body: "Krátce před okupací byl převelen do Prahy k Ministerstvu národní obrany. Po rozpuštění armády žil s manželkou Olgou v Praze jako bývalý důstojník zaniklého státu."
     },
     {
       date: "1939-1945",
-      title: "Okupace a civilní život",
-      body: "Po likvidaci československé branné moci odešel do civilu. V pramenech vystupuje i jako kulturní člověk, sběratel a redaktor exlibrisových zpráv."
+      title: "Odboj s opatrnou poznámkou",
+      body: "Dokument upozorňuje na častou záměnu skutečného majora s odbojovými skupinami nesoucími jméno Jan Žižka. Jeho každodenní vazba na Obranu národa není výslovně doložená, jisté je čekání na příležitost k ozbrojenému vystoupení."
+    },
+    {
+      date: "5.-9. 5. 1945",
+      title: "Pražské povstání",
+      body: "V Dejvicích a Bubenči blokovaly barikády ústupové trasy německých jednotek směrem k Ruzyni a na západ. U Žižky lze z jeho hodnosti a zkušenosti opatrně dovodit roli organizátora a instruktora v místním odporu."
     },
     {
       date: "9. 5. 1945",
-      title: "Dejvice",
-      body: "V Pražském povstání se přidal k bojům a padl v samotném závěru války na barikádě v Dejvicích, u Velflíkovy ulice a Flemingova náměstí."
+      title: "Velflíkova a Flemingovo",
+      body: "Na barikádě v prostoru Velflíkovy ulice a Flemingova náměstí byl zasažen střelou do krku a zemřel v poslední palbě povstání. Pietní deska je vedena v CEVH pod číslem CZE-0006-21198."
     }
   ];
 
@@ -171,10 +211,10 @@
       title: "Poslední barikáda",
       x: 16,
       y: 31,
-      body: "Biografická trasa se uzavírá v Dejvicích. Žižka padl 9. května 1945, kdy se pro mnoho lidí osvobození potkalo s poslední palbou.",
+      body: "Biografická trasa se uzavírá v Dejvicích, kde barikády blokovaly ústupové trasy německých jednotek k Ruzyni a na západ. Žižka padl 9. května 1945 na barikádě u Velflíkovy ulice a Flemingova náměstí; pamětní deska má evidenční číslo CZE-0006-21198.",
       image: "assets/photos/uder-pres-prekazku-thumb.jpg",
       imageAlt: "Obrazová rekonstrukce úderníka překonávajícího překážku",
-      imageCaption: "Motiv úderníka se v životopise vrací i v posledním boji.",
+      imageCaption: "Motiv úderníka se v životopise vrací i v posledním boji na barikádě.",
       imageFocus: "center 38%"
     }
   ];
@@ -214,6 +254,31 @@
       key: "Žižka",
       pattern: /Žižk/i,
       note: "Žižkovy výskyty v románu je dobré číst dvojitě: jako stopu konkrétního legionáře a zároveň jako motiv jména zatíženého českou vojenskou pamětí."
+    },
+    {
+      key: "úderný prapor",
+      pattern: /údern(ý|ého|ém|í).*prapor|úderní/i,
+      note: "Úderný prapor byl elitní dobrovolnický útvar určený pro rychlý útok, průzkum a boj zblízka. U Jana Žižky je doloženo zařazení k I. údernému praporu 26. 9. 1917."
+    },
+    {
+      key: "přísaha",
+      pattern: /přísah|slib/i,
+      note: "Legionářská přísaha nebyla jen vojenský formalismus. Pro bývalé zajatce znamenala vědomý přechod do služby budoucí republice a riziko trestu smrti při opětovném zajetí monarchií."
+    },
+    {
+      key: "sos",
+      pattern: /\bSOS\b|Stráž obrany státu/i,
+      note: "Stráž obrany státu spojovala četníky, policisty, finanční stráž a armádní posily. V roce 1938 tvořila předsunutou nárazníkovou vrstvu před armádními prapory v pohraničí."
+    },
+    {
+      key: "freikorps",
+      pattern: /Freikorps|henleinov/i,
+      note: "Sudetendeutsches Freikorps byl ozbrojený sudetoněmecký útvar podporovaný nacistickým Německem. V září 1938 přepadával hlídky, úřady a pohraniční stanoviště."
+    },
+    {
+      key: "barikáda",
+      pattern: /barikád/i,
+      note: "Pražské barikády měly zpomalit německou techniku a uzavřít ústupové trasy. Žižkův poslední boj je doložen u Velflíkovy ulice a Flemingova náměstí v Dejvicích."
     }
   ];
 
@@ -358,8 +423,8 @@
     {
       term: "Jan Žižka",
       category: "osoby",
-      body: "Major pěchoty, ruský legionář, úderník, sběratel exlibris a účastník posledních bojů v Praze. Web sleduje jeho životopis i románovou stopu v Třetí úderné.",
-      related: ["Úderný prapor", "Dejvice"]
+      body: "Major pěchoty, ruský legionář, úderník, sběratel exlibris a účastník posledních bojů v Praze. Nejde o Jana Žižku z Trocnova ani o partyzánskou brigádu nesoucí jeho jméno; web sleduje skutečného důstojníka narozeného roku 1896.",
+      related: ["I. úderný prapor", "Dejvice"]
     },
     {
       term: "Jekatěrinburg",
@@ -522,15 +587,184 @@
       category: "mista",
       body: "Uralské město a jeden z výrazných bodů bojů a přesunů. V románové mapě patří k místům, kde se trať, průmysl a válka silně překrývají.",
       related: ["Ural", "Jekatěrinburg"]
+    },
+    {
+      term: "54. pěší pluk",
+      category: "vojensko",
+      body: "Rakousko-uherský pěší pluk s olomouckým doplňovacím obvodem, neformálně Hanácký. Žižka k němu nastoupil 13. 4. 1915 jako jednoroční dobrovolník.",
+      related: ["Jednoroční dobrovolník", "Halič"]
+    },
+    {
+      term: "7. střelecký pluk Tatranský",
+      category: "vojensko",
+      body: "Jeden z pluků československého vojska v Rusku. Žižka je u něj v pramenech veden před přechodem k elitnímu I. údernému praporu.",
+      related: ["Československé legie v Rusku", "I. úderný prapor"]
+    },
+    {
+      term: "Barikáda",
+      category: "vojensko",
+      body: "Nouzová pouliční překážka z dlažby, vozů, klád, kovu a všeho těžkého po ruce. V květnu 1945 měla brzdit německou techniku a uzavírat únikové trasy přes Prahu.",
+      related: ["Pražské povstání", "Velflíkova ulice"]
+    },
+    {
+      term: "Bartoš",
+      category: "historie",
+      body: "Krycí označení hlavního vojenského velitelství Pražského povstání, spojeného s generálem Karlem Kutlvašrem. Koordinovalo ozbrojený odpor v posledních dnech války.",
+      related: ["Pražské povstání", "Barikáda"]
+    },
+    {
+      term: "CEVH",
+      category: "historie",
+      body: "Centrální evidence válečných hrobů Ministerstva obrany. Žižkova dejvická pamětní deska je v ní vedena pod číslem CZE-0006-21198.",
+      related: ["Flemingovo náměstí", "Vojenské pietní místo"]
+    },
+    {
+      term: "Černý čtvrtek",
+      category: "historie",
+      body: "Označení krizových událostí 22. 9. 1938 v severním pohraničí, kdy se bezpečnostní situace prudce lámala útoky henleinovců a Freikorpsu na předsunuté složky státu.",
+      related: ["SOS", "Sudetendeutsches Freikorps"]
+    },
+    {
+      term: "Důstojnická škola",
+      category: "vojensko",
+      body: "Legionářská cesta k důstojnické hodnosti založená na výcviku, schopnostech a důvěře jednotky. Žižka po ní 10. 3. 1919 dosáhl hodnosti praporčíka.",
+      related: ["Praporčík", "I. úderný prapor"]
+    },
+    {
+      term: "Flemingovo náměstí",
+      category: "mista",
+      body: "Dejvické náměstí v prostoru posledního Žižkova boje. U adresy Flemingovo nám. 1417/5 je pamětní deska s evidencí CZE-0006-21198.",
+      related: ["Velflíkova ulice", "CEVH"]
+    },
+    {
+      term: "Hraničářský prapor",
+      category: "vojensko",
+      body: "Útvar určený pro službu na státní hranici. Žižka po návratu z legií převzal četu u Hraničářského praporu 6 v Domažlicích.",
+      related: ["Domažlice", "První republika"]
+    },
+    {
+      term: "Horský prapor",
+      category: "vojensko",
+      body: "Pěší útvar cvičený pro náročný terén a horské operace. Žižka v polovině dvacátých let sloužil u Horského praporu 3 v Dolním Kubíně.",
+      related: ["Dolní Kubín", "Horský pěší pluk"]
+    },
+    {
+      term: "I. úderný prapor",
+      category: "vojensko",
+      body: "Elitní úderný útvar ruských legií. Žižka byl k praporu zařazen 26. 9. 1917 a v jeho rámci prošel boji i důstojnickým postupem.",
+      related: ["Úderník", "Důstojnická škola"]
+    },
+    {
+      term: "Jednoroční dobrovolník",
+      category: "vojensko",
+      body: "Rakousko-uherský institut pro vzdělanější brance, kteří mohli po zkrácené službě a výcviku postupovat k poddůstojnickým či důstojnickým hodnostem. U Žižky vysvětluje rychlý postup na desátníka.",
+      related: ["54. pěší pluk", "Desátník"]
+    },
+    {
+      term: "Kamenický Šenov",
+      category: "mista",
+      body: "Jedno z míst v úseku Strážního praporu XXII v roce 1938. V dokumentu vystupuje jako prostor zálohy a štábního krytí v Lužických horách.",
+      related: ["Strážní prapor XXII", "Lužické hory"]
+    },
+    {
+      term: "Kurz pěchotních pozorovatelů",
+      category: "vojensko",
+      body: "Specializovaný kurz, který učil pěší velitele využívat letoun pro průzkum, orientaci v terénu a koordinaci palby. Žižka ho absolvoval v Chebu na jaře 1926.",
+      related: ["Cheb", "Moderní doktrína"]
+    },
+    {
+      term: "Lužické hory",
+      category: "mista",
+      body: "Pohraniční horský prostor, kde Žižka roku 1938 velel Strážnímu praporu XXII. Úsek sahal od Dolského mlýna ke kótě Bouřný.",
+      related: ["Kamenický Šenov", "Strážní prapor XXII"]
+    },
+    {
+      term: "Mnichovská dohoda",
+      category: "historie",
+      body: "Dohoda z 30. 9. 1938, která donutila Československo odstoupit pohraničí. Pro Žižkův prapor znamenala vyklizení připravených opevnění bez boje.",
+      related: ["Strážní prapor XXII", "Černý čtvrtek"]
+    },
+    {
+      term: "Obrana národa",
+      category: "historie",
+      body: "Vojenská odbojová organizace bývalých důstojníků po 15. 3. 1939. U majora Jana Žižky je potřeba být přesný: mnoho zmínek míří ke skupinám pojmenovaným po husitském Žižkovi, ne přímo k jeho osobě.",
+      related: ["Protektorát", "Jan Žižka"]
+    },
+    {
+      term: "Olga Žižková",
+      category: "osoby",
+      body: "Žižkova manželka zmiňovaná v protektorátní části nové analýzy. Po rozpuštění armády s ní žil v Praze jako bývalý důstojník mimo službu.",
+      related: ["Praha", "Protektorát"]
+    },
+    {
+      term: "Olšanské hřbitovy",
+      category: "mista",
+      body: "Pražské hřbitovy, u nichž se objevují vyhledávací indexy. Nová analýza ale zdůrazňuje, že přesné fyzické umístění Žižkových ostatků není v použitých pramenech jednoznačně doloženo.",
+      related: ["CEVH", "Flemingovo náměstí"]
+    },
+    {
+      term: "Praporčík",
+      category: "vojensko",
+      body: "První důstojnická hodnost v Žižkově legionářské dráze, dosažená 10. 3. 1919. V jeho případě navazuje na službu u I. úderného praporu a důstojnickou školu.",
+      related: ["Důstojnická škola", "I. úderný prapor"]
+    },
+    {
+      term: "Pražské povstání",
+      category: "historie",
+      body: "Ozbrojené vystoupení proti nacistické moci v květnu 1945. Žižka bojoval v Dejvicích, kde barikády bránily ústupovým trasám německých jednotek na západ.",
+      related: ["Barikáda", "Bartoš"]
+    },
+    {
+      term: "První republika",
+      category: "historie",
+      body: "Období budování československé armády mezi lety 1918 a 1938. Žižka zde prošel hraničářskými, horskými a pěšími útvary a dosáhl hodnosti majora pěchoty.",
+      related: ["Hraničářský prapor", "Kurz pěchotních pozorovatelů"]
+    },
+    {
+      term: "Protektorát",
+      category: "historie",
+      body: "Okupační režim po 15. 3. 1939, kdy byla československá armáda rozpuštěna. Pro Žižku to znamenalo ztrátu uniformy, život v Praze a čekání na možnost odporu.",
+      related: ["Obrana národa", "Pražské povstání"]
+    },
+    {
+      term: "SOS",
+      category: "vojensko",
+      body: "Stráž obrany státu, smíšená bezpečnostní složka četníků, policistů, finanční stráže a armádních posil. V září 1938 tvořila první nárazník před prapory pravidelné armády.",
+      related: ["Černý čtvrtek", "Sudetendeutsches Freikorps"]
+    },
+    {
+      term: "Strážní prapor XXII",
+      category: "vojensko",
+      body: "Prapor, kterému Žižka velel v roce 1938 v Lužických horách. Bránil úsek lehkého opevnění od Dolského mlýna přes Kamenický Šenov směrem ke kótě Bouřný.",
+      related: ["Lužické hory", "Mnichovská dohoda"]
+    },
+    {
+      term: "Sudetendeutsches Freikorps",
+      category: "historie",
+      body: "Ozbrojená sudetoněmecká formace podporovaná nacistickým Německem. V září 1938 vedla přepady a sabotážní akce proti československým pohraničním složkám.",
+      related: ["SOS", "Černý čtvrtek"]
+    },
+    {
+      term: "Velflíkova ulice",
+      category: "mista",
+      body: "Dejvická ulice spojená s poslední Žižkovou barikádou. Podle zpracovaných pramenů zde 9. 5. 1945 utrpěl smrtelné střelné zranění krku.",
+      related: ["Flemingovo náměstí", "Barikáda"]
+    },
+    {
+      term: "Vojenské pietní místo",
+      category: "historie",
+      body: "Pamětní deska, pomník, hrob nebo jiný veřejný doklad válečné oběti. U Jana Žižky je klíčová deska na Flemingově náměstí v Praze 6.",
+      related: ["CEVH", "Flemingovo náměstí"]
     }
   ];
 
   const archiveGroups = [
     {
       title: "Životopis a pátrání",
-      body: "Místní syntézy k Janu Žižkovi, jeho vojenské službě, pramenným rozporům a paměti.",
+      body: "Místní syntézy k Janu Žižkovi, jeho vojenské službě, pramenným rozporům, roku 1938, Pražskému povstání a paměti.",
       links: [
-        ["../Major Jan Žižka (1896–1945).docx", "Biografie DOCX", "file-text", false, true],
+        ["assets/docs/jan-zizka-vojenska-draha-a-smrt.docx", "Vojenská dráha DOCX", "file-text", false, true],
+        ["../Major Jan Žižka (1896–1945).docx", "Biografie DOCX", "file-text", false, false],
         ["../Pátrání po majoru Janu Žižkovi.docx", "Pátrání DOCX", "file-search", false, false]
       ]
     },
@@ -742,10 +976,11 @@
     const visual = volumeVisuals[volume.id] || volumeVisuals["na-ukrajine"];
     panel.innerHTML = `
       <h3>Média dílu</h3>
-      <p class="reader-source-caption">${escapeHtml(media.label)} · podcast a video k aktuálnímu dílu románu</p>
+      <p class="reader-source-caption">${escapeHtml(media.label)} · podcast, video a Žižkova biografická vrstva k aktuálnímu dílu románu</p>
       <div class="source-row">
         ${sourcePill(volume.sourcePdf, "PDF", "file", false)}
         ${sourcePill(volume.sourceDoc, "DOCX", "file-type", false)}
+        ${sourcePill("assets/docs/jan-zizka-vojenska-draha-a-smrt.docx", "Žižka", "file-text", false)}
         ${sourcePill(media.audio, "Audio", "volume-2", false)}
         ${media.video ? sourcePill(media.video, "Video", "film", false) : ""}
       </div>
